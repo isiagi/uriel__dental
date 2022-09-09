@@ -1,0 +1,22 @@
+.banner__container {
+  background: #4db7e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 35vh;
+  color: #fff;
+}
+
+.banner__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__btn {
+  padding: 18px 24px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}

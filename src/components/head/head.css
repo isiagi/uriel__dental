@@ -1,0 +1,21 @@
+.head__wrapper {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #ededed;
+  min-height: 6vh;
+}
+
+.head__wrapper1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.head__wrapper1 {
+  color: #545f63;
+  font-size: 15px;
+}
+
+.head__icon {
+  color: #40aeef;
+}

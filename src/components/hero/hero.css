@@ -1,0 +1,59 @@
+.hero__one {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slider {
+    z-index: -100;
+}
+
+.hero__two {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../../assets/3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__three {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../../assets/4.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__one .hero__text {
+    text-align: center;
+    color: #fff;
+}
+
+.hero__text h1 {
+    font-size: 50px;
+}
+
+.hero__two .hero__text {
+    text-align: center;
+    color: #fff;
+}
+
+.hero__three .hero__text {
+    text-align: center;
+    color: #fff;
+}
