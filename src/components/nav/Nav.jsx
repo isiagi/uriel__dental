@@ -1,13 +1,14 @@
 import React from "react";
 
-import im2 from '../../assets/9.png'
-import { MdTableRows } from 'react-icons/md';
-import { GiCancel } from 'react-icons/gi';
+import im2 from "../../assets/9.png";
+import { MdTableRows } from "react-icons/md";
+import { GiCancel } from "react-icons/gi";
 
 import "./nav.css";
+import { Link } from "react-router-dom";
 
 function Nav() {
-  const [open, setOpen] = React.useState(false)
+  const [open, setOpen] = React.useState(false);
   const [offSet, setOffset] = React.useState(0);
 
   React.useEffect(() => {
@@ -20,22 +21,32 @@ function Nav() {
     <div className={offSet > 40 ? "nav__container1" : "nav__container"}>
       <div className="nav__wrapper">
         <div className="nav__wrapper1">
-        <img src={im2} alt="" width={90}/>
-         
+          <img src={im2} alt="" width={90} />
         </div>
-        <div className={`${"nav__wrapper2"} ${open ? "active" : ''}`}>
+        <div className={`${"nav__wrapper2"} ${open ? "active" : ""}`}>
           <ul className="nav__ul">
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/services">Services</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
         </div>
         <div className="nav__icons">
-          {open ? <GiCancel onClick={() => setOpen(false)}/> : <MdTableRows onClick={() => setOpen(true)}/>}
+          {open ? (
+            <GiCancel onClick={() => setOpen(false)} />
+          ) : (
+            <MdTableRows onClick={() => setOpen(true)} />
+          )}
         </div>
       </div>
-      
     </div>
   );
 }

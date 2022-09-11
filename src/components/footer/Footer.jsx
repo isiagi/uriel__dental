@@ -1,4 +1,4 @@
-import footerImg from "../../assets/9.png";
+import footerImg from "../../assets/1.png";
 
 import "./footer.css";
 
@@ -44,12 +44,12 @@ function Footer() {
           <div>
             <form>
               <div className='contact__input'>
-                <input type="text" required/>
+                <input type="text" className="input" required/>
                 <label htmlFor="name">Name</label>
               </div>
               <br />
               <div className='contact__input'>
-                <input type="email" name="email" required/>
+                <input type="email" name="email" className="input" required/>
                 <label htmlFor="email">Email</label>
               </div>
               <br />

@@ -1,0 +1,14 @@
+.contact__container {
+    min-height: 90vh;
+}
+
+.contact__top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact__flex {
+    display: flex;
+    align-items: center;
+}

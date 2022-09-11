@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 30px;
+  flex-wrap: wrap;
 }
 
 .footer__wrapper__text {
@@ -19,7 +20,7 @@
 }
 
 .footer__img {
-  width: 80px;
+  width: 70px;
 }
 
 .footer__wrapper h3 {
@@ -65,7 +66,7 @@
     font-size: 15px;
 }
 
-.contact__input input {
+.contact__input .input {
   height: 100%;
   width: 100%;
   border: none;
@@ -92,8 +93,8 @@
     pointer-events: none;
 }
 
-.contact__input input:focus ~ label,
-.contact__input input:valid ~ label {
+.contact__input .input:focus ~ label,
+.contact__input .input:valid ~ label {
   transform: translateY(-20px);
 }
 
