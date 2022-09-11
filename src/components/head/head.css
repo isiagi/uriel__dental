@@ -19,3 +19,13 @@
 .head__icon {
   color: #40aeef;
 }
+
+.none {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .head__wrapper {
+    min-height: 4vh;
+  }
+}

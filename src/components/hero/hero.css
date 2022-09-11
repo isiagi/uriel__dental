@@ -13,6 +13,7 @@
 
 .slider {
     z-index: -100;
+    min-height: 100vh;
 }
 
 .hero__two {
@@ -45,7 +46,8 @@
 }
 
 .hero__text h1 {
-    font-size: 50px;
+    font-size: 40px;
+    color: #40aeef;
 }
 
 .hero__two .hero__text {
@@ -56,4 +58,20 @@
 .hero__three .hero__text {
     text-align: center;
     color: #fff;
+}
+
+.hero__button {
+    padding: 16px 24px;
+    outline: none;
+    border: none;
+    background-color: #40aeef;
+    color: #fff;
+    border-radius: 5px;
+    margin-block: 2rem;
+}
+
+@media screen and (max-width: 991px) {
+    .slider {
+        height: 90vh;
+    }
 }

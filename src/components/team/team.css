@@ -10,12 +10,14 @@
     justify-content: center;
     align-items: center;
     padding-block: 64px;
+    flex-wrap: wrap;
   }
 
 
 .team__card {
     display: flex;
-    gap: 20px;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .team__card__item {
@@ -23,6 +25,10 @@
     flex-direction: column;
     justify-content: center;
     margin-block: 32px;
+}
+
+.team__card__text {
+    text-align: center;
 }
 
 .team__card__item h3 {

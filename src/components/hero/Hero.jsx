@@ -12,7 +12,7 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 function Hero() {
   return (
-    <div>
+ 
       <AutoplaySlider
         bullets={false}
         play={true}
@@ -26,22 +26,25 @@ function Hero() {
           <div className="hero__text">
             <h1>Welcome To Arron's Dental Hub</h1>
             <h2>Have a Better Smile</h2>
+            <button className='hero__button'>Make An Appointment</button>
           </div>
         </div>
         <div className="hero__two">
           <div className="hero__text">
             <h1>Welcome To Arron's Dental Hub</h1>
             <h2>Have a Better Smile</h2>
+            <button className='hero__button'>Make An Appointment</button>
           </div>
         </div>
         <div className="hero__three">
           <div className="hero__text">
             <h1>Welcome To Arron's Dental Hub</h1>
             <h2>Have a Better Smile</h2>
+            <button className='hero__button'>Make An Appointment</button>
           </div>
         </div>
       </AutoplaySlider>
-    </div>
+    
   );
 }
 
