@@ -16,7 +16,7 @@ function Services() {
               <FaTooth className='service__icon'/>
             </div>
             <div className="service__textz">
-              <h4>Dental Implants</h4>
+              <h4>Root Canal Treatment</h4>
               <p>
                 The implant fixture is first placed, so that it is likely to
                 osseointegrate, then a dental prosthetic is added
@@ -28,7 +28,7 @@ function Services() {
               <FaTooth className='service__icon'/>
             </div>
             <div className="service__textz">
-              <h4>Dental Calculus</h4>
+              <h4>Artifical Teeth</h4>
               <p>
                 The implant fixture is first placed, so that it is likely to
                 osseointegrate, then a dental prosthetic is added
@@ -40,7 +40,7 @@ function Services() {
               <FaTooth className='service__icon'/>
             </div>
             <div className="service__textz">
-              <h4>Prevention</h4>
+              <h4>Dental Filling</h4>
               <p>
                 The implant fixture is first placed, so that it is likely to
                 osseointegrate, then a dental prosthetic is added
@@ -52,7 +52,7 @@ function Services() {
               <FaTooth className='service__icon'/>
             </div>
             <div className="service__textz">
-              <h4>Cosmetic Dentistry</h4>
+              <h4>Orthodentic Treatment</h4>
               <p>
                 The implant fixture is first placed, so that it is likely to
                 osseointegrate, then a dental prosthetic is added

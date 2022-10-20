@@ -1,4 +1,4 @@
-import img from '../../assets/4.jpeg'
+import img from '../../assets/home.jpeg'
 import "./team.css";
 
 function Team() {
@@ -15,7 +15,7 @@ function Team() {
                     <img src={img} alt="" />
                 </div>
                 <div className="team__card__text">
-                    <h3>Dr. Victoria</h3>
+                    <h3>Dr. ......</h3>
                     <p>Senior Doctor</p>
                 </div>
             </div>
@@ -24,7 +24,7 @@ function Team() {
                     <img src={img} alt="" />
                 </div>
                 <div className="team__card__text">
-                    <h3>Dr. Victoria</h3>
+                    <h3>Dr. ......</h3>
                     <p>Senior Doctor</p>
                 </div>
             </div>
@@ -33,7 +33,7 @@ function Team() {
                     <img src={img} alt="" />
                 </div>
                 <div className="team__card__text">
-                    <h3>Dr. Victoria</h3>
+                    <h3>Dr. ......</h3>
                     <p>Senior Doctor</p>
                 </div>
             </div>
@@ -42,7 +42,7 @@ function Team() {
                     <img src={img} alt="" />
                 </div>
                 <div className="team__card__text">
-                    <h3>Dr. Victoria</h3>
+                    <h3>Dr. ......</h3>
                     <p>Senior Doctor</p>
                 </div>
             </div>
@@ -51,7 +51,7 @@ function Team() {
                     <img src={img} alt="" />
                 </div>
                 <div className="team__card__text">
-                    <h3>Dr. Victoria</h3>
+                    <h3>Dr. ......</h3>
                     <p>Senior Doctor</p>
                 </div>
             </div>

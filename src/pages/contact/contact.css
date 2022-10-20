@@ -12,3 +12,14 @@
     display: flex;
     align-items: center;
 }
+
+.contact__input .input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    background-color: #333f48;
+    color: #fff;
+    font-size: 15px;
+  }

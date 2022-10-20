@@ -1,6 +1,6 @@
 import React from "react";
 
-import im2 from "../../assets/9.png";
+import im2 from "../../assets/logo.jpg";
 import { MdTableRows } from "react-icons/md";
 import { GiCancel } from "react-icons/gi";
 
@@ -21,7 +21,7 @@ function Nav() {
     <div className={offSet > 40 ? "nav__container1" : "nav__container"}>
       <div className="nav__wrapper">
         <div className="nav__wrapper1">
-          <img src={im2} alt="" width={90} />
+          <img src={im2} alt="" width={60} />
         </div>
         <div className={`${"nav__wrapper2"} ${open ? "active" : ""}`}>
           <ul className="nav__ul">

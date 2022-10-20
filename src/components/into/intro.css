@@ -23,6 +23,10 @@
     font-weight: 100;
 }
 
+.intro__wrapper2__img {
+    max-width: 400px;
+}
+
 .intro__wrapper2 {
     display: flex;
     gap: 10px;

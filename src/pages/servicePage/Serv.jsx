@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaTooth } from "react-icons/fa";
 
+import Testmonial from "../../components/testmo/Testmonial"
+
 import './serv.css'
 
 function Serv() {
@@ -22,7 +24,7 @@ function Serv() {
               <FaTooth className='service__icon'/>
             </div>
             <div className="service__textz">
-              <h4>Dental Implants</h4>
+              <h4>Root Canal Treatment</h4>
               <p>
                 The implant fixture is first placed, so that it is likely to
                 osseointegrate, then a dental prosthetic is added
@@ -34,7 +36,7 @@ function Serv() {
               <FaTooth className='service__icon'/>
             </div>
             <div className="service__textz">
-              <h4>Dental Calculus</h4>
+              <h4>Artifical Teeth</h4>
               <p>
                 The implant fixture is first placed, so that it is likely to
                 osseointegrate, then a dental prosthetic is added
@@ -46,7 +48,7 @@ function Serv() {
               <FaTooth className='service__icon'/>
             </div>
             <div className="service__textz">
-              <h4>Prevention</h4>
+              <h4>Dental Filling</h4>
               <p>
                 The implant fixture is first placed, so that it is likely to
                 osseointegrate, then a dental prosthetic is added
@@ -58,7 +60,7 @@ function Serv() {
               <FaTooth className='service__icon'/>
             </div>
             <div className="service__textz">
-              <h4>Cosmetic Dentistry</h4>
+              <h4>Orthodentic Treatment</h4>
               <p>
                 The implant fixture is first placed, so that it is likely to
                 osseointegrate, then a dental prosthetic is added
@@ -70,50 +72,17 @@ function Serv() {
               <FaTooth className='service__icon'/>
             </div>
             <div className="service__textz">
-              <h4>Cosmetic Dentistry</h4>
+              <h4>Teeth Extraction</h4>
               <p>
                 The implant fixture is first placed, so that it is likely to
                 osseointegrate, then a dental prosthetic is added
               </p>
             </div>
-          </div>
-          <div className="service__card">
-            <div className="service__icon">
-              <FaTooth className='service__icon'/>
-            </div>
-            <div className="service__textz">
-              <h4>Cosmetic Dentistry</h4>
-              <p>
-                The implant fixture is first placed, so that it is likely to
-                osseointegrate, then a dental prosthetic is added
-              </p>
-            </div>
-          </div>
-          <div className="service__card">
-            <div className="service__icon">
-              <FaTooth className='service__icon'/>
-            </div>
-            <div className="service__textz">
-              <h4>Cosmetic Dentistry</h4>
-              <p>
-                The implant fixture is first placed, so that it is likely to
-                osseointegrate, then a dental prosthetic is added
-              </p>
-            </div>
-          </div>
-          <div className="service__card">
-            <div className="service__icon">
-              <FaTooth className='service__icon'/>
-            </div>
-            <div className="service__textz">
-              <h4>Cosmetic Dentistry</h4>
-              <p>
-                The implant fixture is first placed, so that it is likely to
-                osseointegrate, then a dental prosthetic is added
-              </p>
-            </div>
-          </div>
-        </div>  
+          </div>   
+        </div> 
+        {/* <div>
+          <Testmonial />
+        </div>  */}
       </div>
     </div>
   )

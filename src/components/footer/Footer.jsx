@@ -1,4 +1,4 @@
-import footerImg from "../../assets/1.png";
+import footerImg from "../../assets/logo.jpg";
 
 import "./footer.css";
 
@@ -9,9 +9,9 @@ function Footer() {
         <div className="footer__wrapper__all">
           <div className="footer__wrapper1">
             <div className="footer__img">
-              <img src={footerImg} alt="footer_image" />
+              <img src={footerImg} alt="footer_image" width={60} />
             </div>
-            <h3>Arron's Dental Hub</h3>
+            <h3>Kawempe Dental Services</h3>
           </div>
           <div className="footer__wrapper__text">
             <p>
@@ -28,12 +28,11 @@ function Footer() {
           </div>
           <div className="footer__ul">
             <ul>
-              <li>Tooth Protection</li>
-              <li>Dental Implants</li>
-              <li>Dental Care</li>
-              <li>Teeth Whitening</li>
-              <li>Dental Calculus</li>
-              <li>Prevention</li>
+              <li>Root Canal Treatment</li>
+              <li>Artifical Teeth</li>
+              <li>Dental Filling</li>
+              <li>Orthodentic Treatment</li>
+              <li>Teeth Extraction</li>
             </ul>
           </div>
         </div>
@@ -45,12 +44,12 @@ function Footer() {
             <form>
               <div className='contact__input'>
                 <input type="text" className="input" required/>
-                <label htmlFor="name">Name</label>
+                <label htmlFor="name" className="input__label">Name</label>
               </div>
               <br />
               <div className='contact__input'>
                 <input type="email" name="email" className="input" required/>
-                <label htmlFor="email">Email</label>
+                <label htmlFor="email" className="input__label">Email</label>
               </div>
               <br />
               <div className='contact__inpu'>

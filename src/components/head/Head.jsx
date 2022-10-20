@@ -12,11 +12,11 @@ function Head() {
         <div className="head__wrapper">
             <div className="head__wrapper1">
                <AiOutlinePhone className="head__icon"/> 
-               <p>+256786535416 / +256703535416</p>
+               <p>+256751571025 / +256751571025</p>
             </div>
             <div className="head__wrapper1">
                 <GoLocation className="head__icon"/>
-                <p>Naliya Kampala</p>
+                <p>Kawempe Kampala</p>
             </div>
             <div className="head__wrapper1">
                 <AiOutlineCalendar className="head__icon"/>

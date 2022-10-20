@@ -1,4 +1,4 @@
-import img from "../../assets/4.jpeg";
+import img from "../../assets/home.jpeg";
 
 import "./intro.css";
 
@@ -7,7 +7,7 @@ function Intro() {
     <div className="intro__container">
       <div className="intro__wrapper">
         <div className="intro__wrapper1">
-          <h1>Welcome To Arron's Dental Hub</h1>
+          <h1>Welcome To Kawempe Dental Services</h1>
           <p>We are ready to help you anytime</p>
         </div>
         <div className="intro__wrapper2">
@@ -29,7 +29,7 @@ function Intro() {
               born and I will give you a complete account of the system, and
               expound the actualteaching.
             </p>
-            <h5>-Dr Victoria</h5>
+            <h5>-Dr ....</h5>
 
             <button>More about us</button>
           </div>

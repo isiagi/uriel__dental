@@ -14,11 +14,11 @@ function Contact() {
           <div className="footer__loc">
             <div className="contact__flex">
               <AiOutlinePhone />
-              <p>+256786535416 / +256703535416</p>
+              <p> +256751571025 /  +256751571025</p>
             </div>
             <div className="contact__flex">
               <GoLocation />
-              <p>Naliya Kampala</p>
+              <p>Kawempe Kampala</p>
             </div>
             <div className="contact__flex">
               <AiOutlineCalendar />
@@ -30,7 +30,7 @@ function Contact() {
           <div className="footer__form">
             <form>
               <div className="contact__input">
-                <input type="text" required />
+                <input type="text" required className=""/>
                 <label htmlFor="">Name</label>
               </div>
               <br />

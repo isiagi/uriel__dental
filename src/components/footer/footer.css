@@ -77,7 +77,7 @@
   font-size: 15px;
 }
 
-.contact__input label {
+.contact__input .input__label {
   position: absolute;
   top: 2px;
   left: 0;
@@ -93,8 +93,8 @@
     pointer-events: none;
 }
 
-.contact__input .input:focus ~ label,
-.contact__input .input:valid ~ label {
+.contact__input .input:focus ~ .input__label,
+.contact__input .input:valid ~ .input__label {
   transform: translateY(-20px);
 }
 
