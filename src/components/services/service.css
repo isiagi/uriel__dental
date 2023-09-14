@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fbfdfd;
+  background-color: #fafff9;
   min-height: 90vh;
 }
 
@@ -32,27 +32,10 @@
 
 .service__textz h4 {
   margin-block: 20px;
-  color: #30383B;
-
-}
-
-.service__btn {
-  border: none;
-  padding: 16px 24px;
-  background-color: #40aeef;
-  color: #fff;
+  color: greenyellow;
 }
 
 .service__icon {
   color: #40aeef;
   font-size: 23px;
-}
-
-.service__wrapper1 {
-    color: #30383B;
-    text-align: center;
-}
-
-.service__wrapper1 h1{
-    font-weight: 100;
 }

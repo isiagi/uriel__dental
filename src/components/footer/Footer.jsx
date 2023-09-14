@@ -11,7 +11,7 @@ function Footer() {
             <div className="footer__img">
               <img src={footerImg} alt="footer_image" width={60} />
             </div>
-            <h3>Kawempe Dental Services</h3>
+            <h3>URIEL DENTAL CLINIC</h3>
           </div>
           <div className="footer__wrapper__text">
             <p>
@@ -42,17 +42,21 @@ function Footer() {
           </div>
           <div>
             <form>
-              <div className='contact__input'>
-                <input type="text" className="input" required/>
-                <label htmlFor="name" className="input__label">Name</label>
+              <div className="contact__input">
+                <input type="text" className="input" required />
+                <label htmlFor="name" className="input__label">
+                  Name
+                </label>
               </div>
-              <br />
-              <div className='contact__input'>
-                <input type="email" name="email" className="input" required/>
-                <label htmlFor="email" className="input__label">Email</label>
+
+              <div className="contact__input">
+                <input type="email" name="email" className="input" required />
+                <label htmlFor="email" className="input__label">
+                  Email
+                </label>
               </div>
-              <br />
-              <div className='contact__inpu'>
+
+              <div className="contact__inpu">
                 <textarea name="" id="" cols="30" rows="10" required></textarea>
                 <label htmlFor="">message</label>
               </div>

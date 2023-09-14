@@ -1,0 +1,29 @@
+.detail__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.detail__first {
+  width: 30%;
+  height: fit-content;
+}
+
+.detail__first > ul > a > li {
+  padding: 0.7rem 0.3rem;
+  text-align: center;
+}
+
+.detail__first > ul > li:hover {
+  background: red;
+}
+
+.detail__second {
+  max-width: 800px;
+}
+
+@media screen and (max-width: 991px) {
+  .detail__first {
+    width: 100%;
+  }
+}

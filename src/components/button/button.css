@@ -1,0 +1,7 @@
+.service__btn {
+  border: none;
+  padding: 16px 24px;
+  background-color: #40aeef;
+  color: #fff;
+  cursor: pointer;
+}

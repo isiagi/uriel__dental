@@ -7,15 +7,6 @@
   flex-direction: column;
 }
 
-.service__wrapper0 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  min-height: 17vh;
-  background-color: #fbfdfd;
-}
-
 .service__wrapper0 h2 {
   font-weight: 100;
 }
@@ -41,6 +32,12 @@
 .service__card {
   text-align: center;
   margin-block: 40px;
+  border: 1px solid green;
+  padding: 1rem 0;
+}
+
+.service__card:hover {
+  transform: scale(1.1);
 }
 
 .service__textz > p {
@@ -51,13 +48,13 @@
 
 .service__textz h4 {
   margin-block: 20px;
-  color: #30383b;
+  color: greenyellow;
 }
 
 .service__btn {
   border: none;
   padding: 16px 24px;
-  background-color: #40aeef;
+  background-color: #356736;
   color: #fff;
 }
 

@@ -1,0 +1,14 @@
+.service__wrapper1 {
+  color: #30383b;
+  text-align: center;
+}
+
+.service__wrapper1 h1 {
+  font-weight: 100;
+  color: greenyellow;
+}
+
+.service__wrapper1 p {
+  color: #40aeef;
+  padding-top: 20px;
+}

@@ -5,16 +5,19 @@ import { AiOutlineCalendar } from "react-icons/ai";
 
 import "./contact.css";
 import MapComponent from "./Map";
+import Semi_banner from "../../components/semibanner/Semi_banner";
+import Button from "../../components/button/Button";
 
 function Contact() {
   return (
     <div className="contact__container">
       <div className="contact__wrapper">
+        <Semi_banner page={"Contact"} />
         <div className="contact__top">
           <div className="footer__loc">
             <div className="contact__flex">
-              <AiOutlinePhone />
-              <p> +256751571025 /  +256751571025</p>
+              <AiOutlinePhone className="contact__icon__style" />
+              <p> +256751571025 / +256751571025</p>
             </div>
             <div className="contact__flex">
               <GoLocation />
@@ -30,27 +33,34 @@ function Contact() {
           <div className="footer__form">
             <form>
               <div className="contact__input">
-                <input type="text" required className=""/>
-                <label htmlFor="">Name</label>
+                <input type="text" required className="input" />
+                <label htmlFor="" className="input__label">
+                  Name
+                </label>
               </div>
-              <br />
+
               <div className="contact__input">
-                <input type="email" required />
-                <label htmlFor="">Email</label>
+                <input type="text" required className="input" />
+                <label htmlFor="" className="input__label">
+                  Email
+                </label>
               </div>
               <div className="contact__input">
-                <input type="tel" name='tel' required />
-                <label htmlFor="tel">Tell</label>
+                <input type="text" name="tel" required className="input" />
+                <label htmlFor="tel" className="input__label">
+                  Tell
+                </label>
               </div>
-              <div className="contact__inp">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <label htmlFor="">Message</label>
+              <div className="contact__inpu">
+                <textarea name="" id="" cols="30" rows="10" required></textarea>
+                <label htmlFor="">message</label>
               </div>
+              <Button name="submit" />
             </form>
           </div>
         </div>
         <div className="contact__map">
-            <MapComponent />
+          <MapComponent />
         </div>
       </div>
     </div>

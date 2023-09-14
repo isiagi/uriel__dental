@@ -1,19 +1,18 @@
 import { FaTooth } from "react-icons/fa";
 
 import "./service.css";
+import Button from "../button/Button";
+import Heading from "../heading/Heading";
 
 function Services() {
   return (
     <div className="service__container">
       <div className="service__wrapper">
-        <div className="service__wrapper1">
-          <h1>Our Clinic Services</h1>
-          <p>services we offer</p>
-        </div>
+        <Heading head="Our Clinic Services" tail="Services We Offer" />
         <div className="service__wrapper3">
           <div className="service__card">
             <div className="service__icon">
-              <FaTooth className='service__icon'/>
+              <FaTooth className="service__icon" />
             </div>
             <div className="service__textz">
               <h4>Root Canal Treatment</h4>
@@ -25,7 +24,7 @@ function Services() {
           </div>
           <div className="service__card">
             <div className="service__icon">
-              <FaTooth className='service__icon'/>
+              <FaTooth className="service__icon" />
             </div>
             <div className="service__textz">
               <h4>Artifical Teeth</h4>
@@ -37,7 +36,7 @@ function Services() {
           </div>
           <div className="service__card">
             <div className="service__icon">
-              <FaTooth className='service__icon'/>
+              <FaTooth className="service__icon" />
             </div>
             <div className="service__textz">
               <h4>Dental Filling</h4>
@@ -49,7 +48,7 @@ function Services() {
           </div>
           <div className="service__card">
             <div className="service__icon">
-              <FaTooth className='service__icon'/>
+              <FaTooth className="service__icon" />
             </div>
             <div className="service__textz">
               <h4>Orthodentic Treatment</h4>
@@ -61,7 +60,7 @@ function Services() {
           </div>
         </div>
         <div>
-            <button className='service__btn'>view all services</button>
+          <Button name="Broswer Services" />
         </div>
       </div>
     </div>
