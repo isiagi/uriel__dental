@@ -17,7 +17,7 @@
 }
 
 .head__icon {
-  color: greenyellow;
+  color: yellowgreen;
   font-size: 20px;
 }
 
@@ -28,5 +28,14 @@
 @media screen and (max-width: 991px) {
   .head__wrapper {
     min-height: 4vh;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .hide {
+    display: none;
+  }
+  .head__container {
+    display: none;
   }
 }

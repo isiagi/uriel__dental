@@ -1,4 +1,5 @@
-import img from "../../assets/home.jpeg";
+import img from "../../assets1/images/6.jpg";
+import Button from "../button/Button";
 import Heading from "../heading/Heading";
 
 import "./intro.css";
@@ -32,7 +33,7 @@ function Intro() {
             </p>
             <h5>-Dr ....</h5>
 
-            <button>More about us</button>
+            <Button name="More about us" bgColor={"#2f512f"} />
           </div>
         </div>
       </div>

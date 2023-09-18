@@ -2,8 +2,12 @@ import React from "react";
 
 import "./button.css";
 
-function Button({ name }) {
-  return <button className="service__btn">{name}</button>;
+function Button({ name, bgColor }) {
+  return (
+    <button className="service__btn" style={{ backgroundColor: bgColor }}>
+      {name}
+    </button>
+  );
 }
 
 export default Button;

@@ -1,5 +1,5 @@
 .footer__container {
-  background-color: #385638;
+  background-color: #2f512f;
   min-height: 55vh;
 }
 
@@ -53,6 +53,7 @@
   height: 30px;
   width: 100%;
   position: relative;
+  margin-bottom: 1rem;
 }
 
 .contact__inpu textarea {

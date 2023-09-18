@@ -1,4 +1,4 @@
-import footerImg from "../../assets/logo.jpg";
+import footerImg from "../../assets1/images/6.jpg";
 
 import "./footer.css";
 
