@@ -54,33 +54,35 @@ function Serv() {
   return (
     <div className="service__containr">
       <Semi_banner page={"Services"} />
-      <div className="service__wrapper middle__class">
-        <div className="service__wrapper1">
-          <h1>Our Clinic Services</h1>
-          <p>services we offer</p>
-        </div>
-        <div className="service__wrapper3">
-          {dentalServices.map(({ id, service, detail, image }) => (
-            <div className="service__card" key={id}>
-              <div>
-                <img src={image} alt="" />
-              </div>
-              {/* <div className="service__icon">
+      <div className="middle__class">
+        <div className="service__wrapper">
+          <div className="service__wrapper1">
+            <h1>Our Clinic Services</h1>
+            <p>services we offer</p>
+          </div>
+          <div className="service__wrapper3">
+            {dentalServices.map(({ id, service, detail, image }) => (
+              <div className="service__card" key={id}>
+                <div>
+                  <img src={image} alt="" />
+                </div>
+                {/* <div className="service__icon">
                 <FaTooth className="service__icon" />
               </div> */}
-              <div className="service__textz">
-                <h4>{service}</h4>
-                <p>{detail}</p>
+                <div className="service__textz">
+                  <h4>{service}</h4>
+                  <p>{detail}</p>
+                </div>
+                <Link to={`/services/${service}`}>
+                  <Button name={"View Service"} />
+                </Link>
               </div>
-              <Link to={`/services/${service}`}>
-                <Button name={"View Service"} />
-              </Link>
-            </div>
-          ))}
-        </div>
-        {/* <div>
+            ))}
+          </div>
+          {/* <div>
           <Testmonial />
         </div>  */}
+        </div>
       </div>
     </div>
   );

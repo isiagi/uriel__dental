@@ -8,7 +8,28 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+}
+
+.hero__textz {
+  position: relative;
+}
+
+.hero__textz > h1 {
+  background: #e4e82c;
+  color: #366937;
+  padding: 1rem;
+}
+
+.hero__textz > .hero__try {
+  background: #fff !important;
+  width: 80%;
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+  padding: 1.5rem 0;
+  position: absolute;
+  left: 120px;
 }
 
 .slider {
@@ -78,5 +99,14 @@
   }
   .awssld__wrapper {
     height: 70vh;
+  }
+  .hero__textz > .hero__try {
+    left: auto;
+  }
+  .hero__textz > h1 {
+    font-size: 1.5em;
+  }
+  .hero__textz > .hero__try {
+    font-size: 0.8em;
   }
 }

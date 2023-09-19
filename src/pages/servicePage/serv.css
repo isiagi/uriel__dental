@@ -47,6 +47,10 @@
   object-fit: cover;
 }
 
+.service__card > div {
+  position: relative;
+}
+
 /* .service__card:hover {
   transform: scale(1.1);
 } */
@@ -76,7 +80,18 @@
 .service__icon {
   color: #40aeef;
   font-size: 23px;
+  position: absolute;
+  right: 20px;
+  bottom: -10px;
+  background: #30383b;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
 }
+
+/* .service__wrapper {
+  padding-bottom: 2rem;
+} */
 
 .service__wrapper1 {
   color: #30383b;

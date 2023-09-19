@@ -38,7 +38,9 @@ function Testmonial() {
             {slideImages.map((slideImage, index) => (
               <div className="each-slide middle__class" key={index}>
                 <div>
-                  <span style={{ color: "#E4E5E6" }}>{slideImage.caption}</span>
+                  <span style={{ color: "#E4E5E6", lineHeight: "2rem" }}>
+                    {slideImage.caption}
+                  </span>
                 </div>
                 <ImQuotesLeft
                   style={{

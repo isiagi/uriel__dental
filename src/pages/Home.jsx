@@ -14,10 +14,10 @@ function Home() {
       <Hero />
       <Intro />
       <Services />
-      <Banner />
+      <Show />
       <Team />
-      {/* <Show /> */}
       <Testmonial />
+      <Banner />
     </>
   );
 }

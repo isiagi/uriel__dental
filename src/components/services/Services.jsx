@@ -56,9 +56,9 @@ function Services() {
             <div className="service__card" key={id}>
               <div>
                 <img src={img1} alt="" />
-              </div>
-              <div className="service__icon">
-                <FaTooth className="service__icon" />
+                <div className="service__icon">
+                  <FaTooth className="servicer__icon" />
+                </div>
               </div>
               <div className="service__textz">
                 <h4>{title}</h4>
@@ -67,9 +67,9 @@ function Services() {
             </div>
           ))}
         </div>
-        <div>
+        {/* <div>
           <Button name="Broswer Services" bgColor={"#2f512f"} />
-        </div>
+        </div> */}
       </div>
     </div>
   );
