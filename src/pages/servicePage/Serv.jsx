@@ -1,91 +1,91 @@
-import React from 'react'
+import React from "react";
 import { FaTooth } from "react-icons/fa";
 
-import Testmonial from "../../components/testmo/Testmonial"
+import "./serv.css";
+import Button from "../../components/button/Button";
+import Semi_banner from "../../components/semibanner/Semi_banner";
+import { Link } from "react-router-dom";
 
-import './serv.css'
+import img1 from "../../assets1/images/20.jpg";
+import img2 from "../../assets1/images/21.png";
+import img3 from "../../assets1/images/22.jpeg";
+import img4 from "../../assets1/images/24.jpg";
+import img5 from "../../assets1/images/kid.jpg";
+
+const dentalServices = [
+  {
+    id: 1,
+    image: img1,
+    service: "Orthodontics",
+    detail:
+      "The implant fixture is first placed, so that it is likely to osseointegrate then a dental prosthetic is added",
+  },
+  {
+    id: 2,
+    image: img2,
+    service: "Prothodontics",
+    detail:
+      "The implant fixture is first placed, so that it is likely to osseointegrate then a dental prosthetic is added",
+  },
+  {
+    id: 3,
+    image: img3,
+    service: "Endodontics",
+    detail:
+      "The implant fixture is first placed, so that it is likely to osseointegrate then a dental prosthetic is added",
+  },
+  {
+    id: 4,
+    image: img5,
+    service: "Child Dentistry",
+    detail:
+      "The implant fixture is first placed, so that it is likely to osseointegrate then a dental prosthetic is added",
+  },
+  {
+    id: 5,
+    image: img4,
+    service: "Cosmetic Dentistry",
+    detail:
+      "The implant fixture is first placed, so that it is likely to osseointegrate then a dental prosthetic is added",
+  },
+];
 
 function Serv() {
   return (
     <div className="service__containr">
-
-      <div className="service__wrapper">
-      <div className="service__wrapper0">
-        <h2>Services</h2>
-        <p>Home / Service </p>
-      </div>
-        <div className="service__wrapper1">
-          <h1>Our Clinic Services</h1>
-          <p>services we offer</p>
-        </div>
-        <div className="service__wrapper3">
-          <div className="service__card">
-            <div className="service__icon">
-              <FaTooth className='service__icon'/>
-            </div>
-            <div className="service__textz">
-              <h4>Root Canal Treatment</h4>
-              <p>
-                The implant fixture is first placed, so that it is likely to
-                osseointegrate, then a dental prosthetic is added
-              </p>
-            </div>
+      <Semi_banner page={"Services"} />
+      <div className="middle__class">
+        <div className="service__wrapper">
+          <div className="service__wrapper1">
+            <h1>Our Clinic Services</h1>
+            <p>services we offer</p>
           </div>
-          <div className="service__card">
-            <div className="service__icon">
-              <FaTooth className='service__icon'/>
-            </div>
-            <div className="service__textz">
-              <h4>Artifical Teeth</h4>
-              <p>
-                The implant fixture is first placed, so that it is likely to
-                osseointegrate, then a dental prosthetic is added
-              </p>
-            </div>
+          <div className="service__wrapper3">
+            {dentalServices.map(({ id, service, detail, image }) => (
+              <div className="service__card" key={id}>
+                <div>
+                  <img src={image} alt="" />
+                </div>
+                {/* <div className="service__icon">
+                <FaTooth className="service__icon" />
+              </div> */}
+                <div className="service__textz">
+                  <h4>{service}</h4>
+                  <p>{detail}</p>
+                </div>
+                <Link to={`/services/${service}`}>
+                  <Button name={"View Service"} />
+                </Link>
+              </div>
+            ))}
           </div>
-          <div className="service__card">
-            <div className="service__icon">
-              <FaTooth className='service__icon'/>
-            </div>
-            <div className="service__textz">
-              <h4>Dental Filling</h4>
-              <p>
-                The implant fixture is first placed, so that it is likely to
-                osseointegrate, then a dental prosthetic is added
-              </p>
-            </div>
-          </div>
-          <div className="service__card">
-            <div className="service__icon">
-              <FaTooth className='service__icon'/>
-            </div>
-            <div className="service__textz">
-              <h4>Orthodentic Treatment</h4>
-              <p>
-                The implant fixture is first placed, so that it is likely to
-                osseointegrate, then a dental prosthetic is added
-              </p>
-            </div>
-          </div>
-          <div className="service__card">
-            <div className="service__icon">
-              <FaTooth className='service__icon'/>
-            </div>
-            <div className="service__textz">
-              <h4>Teeth Extraction</h4>
-              <p>
-                The implant fixture is first placed, so that it is likely to
-                osseointegrate, then a dental prosthetic is added
-              </p>
-            </div>
-          </div>   
-        </div> 
-        {/* <div>
+          {/* <div>
           <Testmonial />
         </div>  */}
+        </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Serv
+export default Serv;

@@ -12,12 +12,13 @@
 }
 
 .head__wrapper1 {
-  color: #545f63;
+  color: #40aeef;
   font-size: 15px;
 }
 
 .head__icon {
-  color: #40aeef;
+  color: yellowgreen;
+  font-size: 20px;
 }
 
 .none {
@@ -27,5 +28,14 @@
 @media screen and (max-width: 991px) {
   .head__wrapper {
     min-height: 4vh;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .hide {
+    display: none;
+  }
+  .head__container {
+    display: none;
   }
 }

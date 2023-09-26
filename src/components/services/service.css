@@ -2,8 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fbfdfd;
-  min-height: 90vh;
+  background-color: #fafff9;
+  min-height: 100vh;
+  padding-bottom: 5rem;
 }
 
 .service__wrapper {
@@ -13,46 +14,17 @@
   align-items: center;
 }
 
-.service__wrapper3 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
-}
-
 .service__card {
   text-align: center;
-  margin-block: 40px;
-}
-
-.service__textz > p {
-  max-width: 220px;
-  line-height: 2rem;
-  color: #545f63;
+  /* margin-block: 40px; */
 }
 
 .service__textz h4 {
   margin-block: 20px;
-  color: #30383B;
-
-}
-
-.service__btn {
-  border: none;
-  padding: 16px 24px;
-  background-color: #40aeef;
-  color: #fff;
+  color: #2f512f;
 }
 
 .service__icon {
   color: #40aeef;
   font-size: 23px;
-}
-
-.service__wrapper1 {
-    color: #30383B;
-    text-align: center;
-}
-
-.service__wrapper1 h1{
-    font-weight: 100;
 }

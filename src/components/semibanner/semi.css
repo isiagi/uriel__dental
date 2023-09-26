@@ -1,0 +1,33 @@
+.service__wrapper10 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 20vh;
+  background-color: #fafff9;
+}
+
+.service__wrapper10 > p {
+  color: yellowgreen;
+}
+
+.service__wrapper10 > h2 {
+  color: #2f512f;
+}
+
+.service__slash {
+  color: #40aeef;
+}
+
+.service__page {
+  color: #e4e82c;
+}
+
+@media screen and (max-width: 991px) {
+  .service__wrapper10 {
+    min-height: 15vh;
+  }
+}
+
+/* fafff9
+#f0ffef */

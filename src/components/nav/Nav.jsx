@@ -1,6 +1,7 @@
 import React from "react";
 
-import im2 from "../../assets/logo.jpg";
+import im2 from "../../assets1/images/6.jpg";
+
 import { MdTableRows } from "react-icons/md";
 import { GiCancel } from "react-icons/gi";
 
@@ -13,13 +14,13 @@ function Nav() {
 
   React.useEffect(() => {
     window.onscroll = () => {
-      setOffset(window.pageYOffset);
+      setOffset(window.scrollY);
     };
   }, []);
 
   return (
-    <div className={offSet > 40 ? "nav__container1" : "nav__container"}>
-      <div className="nav__wrapper">
+    <div className={offSet > 20 ? "nav__container1" : "nav__container"}>
+      <div className="nav__wrapper middle__class">
         <div className="nav__wrapper1">
           <img src={im2} alt="" width={60} />
         </div>

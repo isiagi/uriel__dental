@@ -1,0 +1,13 @@
+.detail__second > h2 {
+  color: #2f512f;
+}
+
+.detail__second > p {
+  color: #475147;
+}
+
+.detail__second > img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}

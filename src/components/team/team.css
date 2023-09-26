@@ -1,56 +1,49 @@
 .team__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fafef9;
 }
 
 .team__wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-block: 64px;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+  flex-wrap: wrap;
+}
 
 .team__card {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-block: 60px;
 }
 
 .team__card__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-block: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-block: 32px;
 }
 
 .team__card__text {
-    text-align: center;
+  text-align: center;
 }
 
 .team__card__item h3 {
-    color: #30383B;
+  color: #30383b;
 }
 
 .team__card__item p {
-    color: #40AEEF;
+  color: #40aeef;
 }
 
 .team__card__img > img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.team__text {
-    color: #30383B;
-}
-
-.team__text h1 {
-    font-weight: 100;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }

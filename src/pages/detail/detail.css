@@ -1,0 +1,42 @@
+.detail__wrapper {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 0;
+}
+
+.detail__first {
+  width: 25%;
+  height: fit-content;
+  border: 1px solid #ccc;
+}
+
+.detail__first > ul > a > li {
+  padding: 0.7rem 0.3rem;
+  color: #2f512f;
+  font-weight: bold;
+  margin: 2px 0;
+}
+
+.detail__active {
+  background: yellowgreen;
+  color: #fff !important;
+}
+
+.detail__first > ul > a > li:hover {
+  background: yellowgreen;
+  color: #fff;
+}
+
+.detail__second {
+  max-width: 800px;
+}
+
+@media screen and (max-width: 991px) {
+  .detail__first {
+    width: 100%;
+  }
+
+  .detail__wrapper {
+    flex-wrap: wrap-reverse;
+  }
+}

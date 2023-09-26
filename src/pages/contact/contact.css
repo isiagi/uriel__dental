@@ -1,25 +1,75 @@
 .contact__container {
-    min-height: 90vh;
+  height: 200vh;
 }
 
 .contact__top {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  gap: 3rem;
+  padding: 3rem 0;
+}
+
+.contact__map {
+  height: 50vh;
 }
 
 .contact__flex {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  background: #2f512f;
+  border-right: 10px solid yellowgreen;
+  margin: 2rem 0;
+  color: #ffffff;
+  font-weight: bold;
+  gap: 1rem;
+}
+
+.contact__icon__style {
+  font-size: 20px;
+}
+
+.footer__loc {
+  width: 30%;
+}
+
+.footer__form {
+  width: 50%;
+  border: 1px solid rgb(165, 165, 165);
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__input {
+  margin: 2rem 0;
 }
 
 .contact__input .input {
-    height: 100%;
-    width: 100%;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid grey;
-    background-color: #333f48;
-    color: #fff;
-    font-size: 15px;
+  height: 100%;
+  width: 100%;
+  max-width: 700px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  background-color: transparent !important;
+  color: red;
+  font-size: 15px;
+}
+
+.contacts__icons {
+  justify-items: flex-end;
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 991px) {
+  .footer__loc {
+    width: 60%;
   }
+
+  .footer__form {
+    width: 90%;
+  }
+}
