@@ -53,9 +53,11 @@ function Services() {
         <Heading head="Popular Procedures" tail="Popular Procedures We Offer" />
         <div className="service__wrapper3">
           {serviceData.map(({ id, title, paragraph }) => (
-            <div className="service__card" key={id}>
+            <div className="service__card card__hover" key={id}>
               <div>
-                <img src={img1} alt="" />
+                <div className="service__img">
+                  <img src={img1} alt="" />
+                </div>
                 <div className="service__icon">
                   <FaTooth className="servicer__icon" />
                 </div>

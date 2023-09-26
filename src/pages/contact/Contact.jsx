@@ -8,8 +8,11 @@ import MapComponent from "./Map";
 import Semi_banner from "../../components/semibanner/Semi_banner";
 import Button from "../../components/button/Button";
 import Heading from "../../components/heading/Heading";
+import useScrollToTop from "../../hooks/useScrollToTop";
 
 function Contact() {
+  useScrollToTop();
+
   return (
     <div className="contact__container">
       <Semi_banner page={"Contact"} />

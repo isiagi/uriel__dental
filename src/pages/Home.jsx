@@ -7,8 +7,11 @@ import Services from "../components/services/Services";
 import Team from "../components/team/Team";
 import Testmonial from "../components/testmo/Testmonial";
 import Show from "../components/show/Show";
+import useScrollToTop from "../hooks/useScrollToTop";
 
 function Home() {
+  useScrollToTop();
+
   return (
     <>
       <Hero />

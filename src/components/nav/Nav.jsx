@@ -36,15 +36,21 @@ function Nav() {
               <Link to="/services">Services</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact">Contact Us</Link>
             </li>
           </ul>
         </div>
         <div className="nav__icons">
           {open ? (
-            <GiCancel onClick={() => setOpen(false)} />
+            <GiCancel
+              style={{ fontSize: "1.5rem" }}
+              onClick={() => setOpen(false)}
+            />
           ) : (
-            <MdTableRows onClick={() => setOpen(true)} />
+            <MdTableRows
+              style={{ fontSize: "1.5rem" }}
+              onClick={() => setOpen(true)}
+            />
           )}
         </div>
       </div>

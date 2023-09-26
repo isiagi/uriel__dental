@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import footerImg from "../../assets1/images/6.jpg";
 
 import "./footer.css";
@@ -28,11 +29,21 @@ function Footer() {
           </div>
           <div className="footer__ul">
             <ul>
-              <li>Root Canal Treatment</li>
-              <li>Artifical Teeth</li>
-              <li>Dental Filling</li>
-              <li>Orthodentic Treatment</li>
-              <li>Teeth Extraction</li>
+              <Link to="/services/Orthodontics">
+                <li>Orthodontics</li>
+              </Link>
+              <Link to="/services/Prothodontics">
+                <li>Prothodontics</li>
+              </Link>
+              <Link to="/services/Endodontics">
+                <li>Endodontics</li>
+              </Link>
+              <Link to="/services/Child Dentistry">
+                <li>Child Dentistry</li>
+              </Link>
+              <Link to="/services/Cosmetic Dentistry">
+                <li>Cosmetic Dentistry</li>
+              </Link>
             </ul>
           </div>
         </div>

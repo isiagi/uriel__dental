@@ -3,7 +3,7 @@ import "react-slideshow-image/dist/styles.css";
 
 import { ImQuotesLeft } from "react-icons/im";
 
-import img from "../../assets/4.jpeg";
+import img from "../../assets1/images/18.jpg";
 
 import "./test.css";
 
@@ -37,19 +37,20 @@ function Testmonial() {
           <Slide arrows={false}>
             {slideImages.map((slideImage, index) => (
               <div className="each-slide middle__class" key={index}>
+                <ImQuotesLeft
+                  style={{
+                    color: "#E4E5E6",
+                    fontSize: "30px",
+                  }}
+                />
                 <div>
                   <span style={{ color: "#E4E5E6", lineHeight: "2rem" }}>
                     {slideImage.caption}
                   </span>
                 </div>
-                <ImQuotesLeft
-                  style={{
-                    color: "#E4E5E6",
-                    fontSize: "30px",
-                    marginTop: "20px",
-                  }}
-                />
-                <p style={{ paddingTop: "28px" }}>John Doe</p>
+                <img src={img} alt="" />
+
+                <h2 style={{ paddingBlock: "48px" }}>John Doe</h2>
               </div>
             ))}
           </Slide>
