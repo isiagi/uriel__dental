@@ -26,25 +26,31 @@ function Nav() {
         </div>
         <div className={`${"nav__wrapper2"} ${open ? "active" : ""}`}>
           <ul className="nav__ul">
-            <li>
+            <li onClick={() => setOpen(false)}>
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li onClick={() => setOpen(false)}>
               <Link to="/about">About</Link>
             </li>
-            <li>
+            <li onClick={() => setOpen(false)}>
               <Link to="/services">Services</Link>
             </li>
-            <li>
-              <Link to="/contact">Contact</Link>
+            <li onClick={() => setOpen(false)}>
+              <Link to="/contact">Contact Us</Link>
             </li>
           </ul>
         </div>
         <div className="nav__icons">
           {open ? (
-            <GiCancel onClick={() => setOpen(false)} />
+            <GiCancel
+              style={{ fontSize: "1.5rem" }}
+              onClick={() => setOpen(false)}
+            />
           ) : (
-            <MdTableRows onClick={() => setOpen(true)} />
+            <MdTableRows
+              style={{ fontSize: "1.5rem" }}
+              onClick={() => setOpen(true)}
+            />
           )}
         </div>
       </div>

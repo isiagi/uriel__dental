@@ -4,6 +4,7 @@
 
 .detail__second > p {
   color: #475147;
+  line-height: 2em;
 }
 
 .detail__second > img {

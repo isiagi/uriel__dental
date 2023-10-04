@@ -29,8 +29,15 @@
   color: #fff;
 }
 
+.each-slide > img {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
 .slidex {
   width: 70%;
   text-align: center;
-  margin: 58px auto;
+  margin: 0px auto;
 }

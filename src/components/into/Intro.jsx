@@ -18,22 +18,29 @@ function Intro() {
           </div>
           <div className="intro__wrapper2__text">
             <p>
-              But I must explain to you how all this mistaken idea of denouncing
-              pleasure and praising pain was born and I will give you a complete
-              account of the system, and expound the actual teachings of the
-              great explorer of the truth.
+              At Uriel Dental Clinic, we're dedicated to providing you and your
+              family with top-notch dental care in a warm and inviting
+              atmosphere. Your smile is a vital part of your overall well-being,
+              and we understand the importance of maintaining it with the
+              highest level of expertise and care. Our experienced team of
+              dental professionals is committed to delivering personalized and
+              comprehensive dental solutions to meet your unique needs.
             </p>
 
             <br />
 
             <p>
-              This mistaken idea of denouncing pleasure and praising pain was
-              born and I will give you a complete account of the system, and
-              expound the actualteaching.
+              Step into our clinic, where a dedicated team listens to your
+              concerns, crafting tailored treatment plans. Offering routine
+              check-ups, advanced procedures, and cosmetic enhancements, we use
+              cutting-edge technology for comprehensive care. Your smile is our
+              passion, and we're here to ensure it shines at its best. Uriel
+              Dental Clinic prioritizes your smile's well-being, creating a
+              brighter, healthier dental future. Welcome to a place where your
+              smile truly matters.
             </p>
-            <h5>-Dr ....</h5>
 
-            <Button name="More about us" bgColor={"#2f512f"} />
+            <Button name="More about us" bgColor={"#40AEEF"} path={"about"} />
           </div>
         </div>
       </div>

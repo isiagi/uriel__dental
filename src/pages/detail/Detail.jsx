@@ -2,6 +2,9 @@ import "./detail.css";
 import Semi_banner from "../../components/semibanner/Semi_banner";
 import { Link, useParams } from "react-router-dom";
 import Dynamic from "../../components/dynamic/Dynamic";
+import Services from "../../components/services/Services";
+import useScrollToTop from "../../hooks/useScrollToTop";
+import Banner from "../../components/banner/Banner";
 
 const dentalServices = [
   {
@@ -27,7 +30,12 @@ const dentalServices = [
 ];
 
 function Detail() {
+  useScrollToTop();
   const { section } = useParams();
+
+  const handleScroll = () => {
+    window.scrollTo(0, 0);
+  };
 
   return (
     <div>
@@ -37,7 +45,11 @@ function Detail() {
           <div className="detail__first">
             <ul>
               {dentalServices.map(({ id, service }) => (
-                <Link to={`/services/${service}`} key={id}>
+                <Link
+                  to={`/services/${service}`}
+                  key={id}
+                  onClick={handleScroll}
+                >
                   <li
                     className={`${section === service ? "detail__active" : ""}`}
                   >
@@ -50,6 +62,8 @@ function Detail() {
           <Dynamic route={section} />
         </div>
       </div>
+      <Banner />
+      <Services />
     </div>
   );
 }

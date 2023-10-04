@@ -1,12 +1,15 @@
 import React from "react";
 
 import "./button.css";
+import { Link } from "react-router-dom";
 
-function Button({ name, bgColor }) {
+function Button({ name, bgColor, path }) {
   return (
-    <button className="service__btn" style={{ backgroundColor: bgColor }}>
-      {name}
-    </button>
+    <Link to={`/${path}`}>
+      <button className="service__btn" style={{ backgroundColor: bgColor }}>
+        {name}
+      </button>
+    </Link>
   );
 }
 

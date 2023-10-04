@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import footerImg from "../../assets1/images/6.jpg";
 
 import "./footer.css";
@@ -15,10 +16,11 @@ function Footer() {
           </div>
           <div className="footer__wrapper__text">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
-              nesciunt. Cum cupiditate qui tempore ratione impedit? Velit, hic!
-              voluptas cumque ipsam quae aspernatur cupiditate nam ex
-              reiciendis, dolor quos.
+              "Uriel Dental Clinic: Your Smile, Our Priority. Our experienced
+              team is dedicated to your oral health and a confident smile. From
+              routine check-ups to advanced treatments, we offer comprehensive
+              dental care. Contact us today for personalized, cutting-edge
+              dentistry.
             </p>
           </div>
         </div>
@@ -28,11 +30,21 @@ function Footer() {
           </div>
           <div className="footer__ul">
             <ul>
-              <li>Root Canal Treatment</li>
-              <li>Artifical Teeth</li>
-              <li>Dental Filling</li>
-              <li>Orthodentic Treatment</li>
-              <li>Teeth Extraction</li>
+              <Link to="/services/Orthodontics">
+                <li>Orthodontics</li>
+              </Link>
+              <Link to="/services/Prothodontics">
+                <li>Prothodontics</li>
+              </Link>
+              <Link to="/services/Endodontics">
+                <li>Endodontics</li>
+              </Link>
+              <Link to="/services/Child Dentistry">
+                <li>Child Dentistry</li>
+              </Link>
+              <Link to="/services/Cosmetic Dentistry">
+                <li>Cosmetic Dentistry</li>
+              </Link>
             </ul>
           </div>
         </div>

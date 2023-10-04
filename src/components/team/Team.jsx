@@ -36,24 +36,6 @@ function Team() {
                 <p>Senior Doctor</p>
               </div>
             </div>
-            <div className="team__card__item">
-              <div className="team__card__img">
-                <img src={img} alt="" />
-              </div>
-              <div className="team__card__text">
-                <h3>Dr. ......</h3>
-                <p>Senior Doctor</p>
-              </div>
-            </div>
-            <div className="team__card__item">
-              <div className="team__card__img">
-                <img src={img} alt="" />
-              </div>
-              <div className="team__card__text">
-                <h3>Dr. ......</h3>
-                <p>Senior Doctor</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>

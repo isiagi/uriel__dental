@@ -77,10 +77,11 @@
     position: absolute;
     top: calc(100% + 0vh);
     left: -100%;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     width: 100%;
     z-index: 100;
     transition: ease 0.8s;
+    font-weight: 600;
   }
 
   .nav__wrapper2.active {
@@ -92,7 +93,9 @@
     list-style: none;
     align-items: center;
     flex-direction: column;
-    background-color: green;
-    color: #fff;
+    background-color: rgba(180, 196, 115, 0.6);
+    padding-block: 1rem;
+    color: black;
+    line-height: 3em;
   }
 }
