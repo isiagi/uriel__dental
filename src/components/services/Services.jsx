@@ -4,7 +4,12 @@ import "./service.css";
 import Button from "../button/Button";
 import Heading from "../heading/Heading";
 
-import img1 from "../../assets1/images/11.jpg";
+import img1 from "../../assets1/images/implant.jpg";
+import img2 from "../../assets1/images/smile.jpg";
+import img3 from "../../assets1/images/27.jpg";
+import img4 from "../../assets1/images/28.jpg";
+import img5 from "../../assets1/images/30.jpg";
+import img6 from "../../assets1/images/26.jpg";
 
 const serviceData = [
   {
@@ -12,36 +17,42 @@ const serviceData = [
     title: "Dental Implants",
     paragraph:
       "Dental implants are a common procedure of permanently replacing missing teeth without affecting neighboring teeth.",
+    image: img1,
   },
   {
     id: 2,
     title: "Teeth Whitening",
     paragraph:
       "Laser teeth whitening allows us to whiten your teeth for as much as 8 shades in just one visit.",
+    image: img2,
   },
   {
     id: 3,
     title: "Oral Health Consultation",
     paragraph:
       "Your smile matters to us, so your first oral health consultation at our clinic is completely free of charge.",
+    image: img5,
   },
   {
     id: 4,
     title: "Porcelain Veneers",
     paragraph:
       "Veneers are an ideal cosmetic solution for everyone who desires a beautiful smile with minimal invasions into their teeth.",
+    image: img6,
   },
   {
     id: 5,
     title: "Prevention",
     paragraph:
       "Proper oral hygiene does not only prevent caries and periodontal disease but also affects our overall health.",
+    image: img3,
   },
   {
     id: 5,
     title: "Invisible Braces",
     paragraph:
       "A modern solution of straightening your teeth through clear braces, made specifically to fit your mouth.",
+    image: img4,
   },
 ];
 
@@ -52,11 +63,11 @@ function Services() {
         {/* <Heading head="Our Clinic Services" tail="Services We Offer" /> */}
         <Heading head="Popular Procedures" tail="Popular Procedures We Offer" />
         <div className="service__wrapper3">
-          {serviceData.map(({ id, title, paragraph }) => (
+          {serviceData.map(({ id, title, paragraph, image }) => (
             <div className="service__card card__hover" key={id}>
               <div>
                 <div className="service__img">
-                  <img src={img1} alt="" />
+                  <img src={image} alt="" />
                 </div>
                 <div className="service__icon">
                   <FaTooth className="servicer__icon" />

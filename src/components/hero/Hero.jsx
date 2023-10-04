@@ -8,6 +8,7 @@ import AnimationStyles from "react-awesome-slider/src/styled/fall-animation/inde
 
 import "./hero.css";
 import Button from "../button/Button";
+import { Link } from "react-router-dom";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
@@ -36,24 +37,34 @@ function Hero() {
               FOR HEALTHY TEETHS &{" "}
               <span style={{ color: "#366937" }}>CONFIDENT SMILE</span>
             </h2>
-            <Button name="View Services" />
+
+            <Button
+              name="View Services"
+              bgColor={"#40AEEF"}
+              path={"services"}
+            />
           </div>
         </div>
       </div>
-      {/* <div className="hero__two">
-        <div className="hero__text">
-          <h1>URIEL DENTAL CLINIC</h1>
-          <h2>Have a Better Smile</h2>
-          <button className="hero__button">Make An Appointment</button>
+
+      <div className="hero__one">
+        <div className="hero__textz middle__class">
+          <h1>Your Smile, Our Expertise</h1>
+          <div className="hero__try">
+            <h2
+              style={{
+                color: "#545f63",
+                paddingBottom: ".8rem",
+                textAlign: "center",
+              }}
+            >
+              Elevating smiles with precision and{" "}
+              <span style={{ color: "#366937" }}>SMILE</span>
+            </h2>
+            <Button name="Contact Us" bgColor={"#40AEEF"} path={"contact"} />
+          </div>
         </div>
-      </div> */}
-      {/* <div className="hero__three">
-        <div className="hero__text">
-          <h1>URIEL DENTAL CLINIC</h1>
-          <h2>Have a Better Smile</h2>
-          <button className="hero__button">Make An Appointment</button>
-        </div>
-      </div> */}
+      </div>
     </AutoplaySlider>
   );
 }

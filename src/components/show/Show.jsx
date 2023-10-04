@@ -22,7 +22,7 @@ function Show() {
             a comfortable, luxury environment. New patients are welcomed with a
             complimentary oral health consultation.
           </p>
-          <Button name={"Contact Us"} />
+          <Button name={"Contact Us"} bgColor={"#40AEEF"} path={"contact"} />
         </div>
       </div>
     </div>

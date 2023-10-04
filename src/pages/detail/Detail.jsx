@@ -4,6 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import Dynamic from "../../components/dynamic/Dynamic";
 import Services from "../../components/services/Services";
 import useScrollToTop from "../../hooks/useScrollToTop";
+import Banner from "../../components/banner/Banner";
 
 const dentalServices = [
   {
@@ -61,6 +62,7 @@ function Detail() {
           <Dynamic route={section} />
         </div>
       </div>
+      <Banner />
       <Services />
     </div>
   );

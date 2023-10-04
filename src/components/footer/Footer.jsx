@@ -16,10 +16,11 @@ function Footer() {
           </div>
           <div className="footer__wrapper__text">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
-              nesciunt. Cum cupiditate qui tempore ratione impedit? Velit, hic!
-              voluptas cumque ipsam quae aspernatur cupiditate nam ex
-              reiciendis, dolor quos.
+              "Uriel Dental Clinic: Your Smile, Our Priority. Our experienced
+              team is dedicated to your oral health and a confident smile. From
+              routine check-ups to advanced treatments, we offer comprehensive
+              dental care. Contact us today for personalized, cutting-edge
+              dentistry.
             </p>
           </div>
         </div>

@@ -26,16 +26,16 @@ function Nav() {
         </div>
         <div className={`${"nav__wrapper2"} ${open ? "active" : ""}`}>
           <ul className="nav__ul">
-            <li>
+            <li onClick={() => setOpen(false)}>
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li onClick={() => setOpen(false)}>
               <Link to="/about">About</Link>
             </li>
-            <li>
+            <li onClick={() => setOpen(false)}>
               <Link to="/services">Services</Link>
             </li>
-            <li>
+            <li onClick={() => setOpen(false)}>
               <Link to="/contact">Contact Us</Link>
             </li>
           </ul>
