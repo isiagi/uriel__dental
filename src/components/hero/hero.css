@@ -8,7 +8,24 @@
   width: 100%;
   display: flex;
   align-items: center;
+  animation: example 4s linear 0s infinite;
+  /* animation-duration: 4s; */
   /* justify-content: center; */
+}
+
+@keyframes example {
+  0 {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.02);
+  }
+  80% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1.02);
+  }
 }
 
 .hero__textz {

@@ -1,6 +1,8 @@
 import img from "../../assets1/images/6.jpg";
 import Button from "../button/Button";
 import Heading from "../heading/Heading";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 import "./intro.css";
 
@@ -14,7 +16,7 @@ function Intro() {
         />
         <div className="intro__wrapper2">
           <div className="intro__wrapper2__img">
-            <img src={img} alt="Dr_Victoria" />
+            <LazyLoadImage effect="blur" src={img} alt="uriel dental" />
           </div>
           <div className="intro__wrapper2__text">
             <p>

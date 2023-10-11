@@ -9,12 +9,17 @@ import Semi_banner from "../../components/semibanner/Semi_banner";
 import Button from "../../components/button/Button";
 import Heading from "../../components/heading/Heading";
 import useScrollToTop from "../../hooks/useScrollToTop";
+import { Helmet } from "react-helmet";
 
 function Contact() {
   useScrollToTop();
 
   return (
     <div className="contact__container">
+      <Helmet>
+        <title>Contact Uriel Dental</title>
+        <meta name="description" content="Contact Uriel Dental" />
+      </Helmet>
       <Semi_banner page={"Contact"} />
       <div className="">
         <div className="contact__wrapper">
@@ -74,7 +79,7 @@ function Contact() {
                   ></textarea>
                   <label htmlFor="message">message</label>
                 </div>
-                <Button name="Talk To Us" bgColor={"#2F512F"} />
+                <Button name="Talk To Us" path={"/#"} bgColor={"#2F512F"} />
               </form>
               <div className="contacts__icons">
                 <GoLocation />

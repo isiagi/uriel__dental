@@ -22,6 +22,7 @@ function Hero() {
       animation="fallAnimation"
       cssModule={[CoreStyles, AnimationStyles]}
       className="slider"
+      selected={2}
     >
       <div className="hero__one">
         <div className="hero__textz middle__class">

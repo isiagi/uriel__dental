@@ -5,6 +5,7 @@ import Dynamic from "../../components/dynamic/Dynamic";
 import Services from "../../components/services/Services";
 import useScrollToTop from "../../hooks/useScrollToTop";
 import Banner from "../../components/banner/Banner";
+import { Helmet } from "react-helmet";
 
 const dentalServices = [
   {
@@ -39,6 +40,9 @@ function Detail() {
 
   return (
     <div>
+      <Helmet>
+        <title>{section} Dental Service</title>
+      </Helmet>
       <Semi_banner page={section} />
       <div className="middle__class">
         <div className="detail__wrapper">
