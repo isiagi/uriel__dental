@@ -1,10 +1,8 @@
 import React from "react";
-import { FaTooth } from "react-icons/fa";
-
+import { Helmet } from "react-helmet";
 import "./serv.css";
 import Button from "../../components/button/Button";
 import Semi_banner from "../../components/semibanner/Semi_banner";
-import { Link } from "react-router-dom";
 import img4 from "../../assets1/images/26.jpg";
 import img5 from "../../assets1/images/kid.jpg";
 import img6 from "../../assets1/images/31.jpg";
@@ -13,6 +11,9 @@ import img8 from "../../assets1/images/32.jpg";
 import useScrollToTop from "../../hooks/useScrollToTop";
 import Testmonial from "../../components/testmo/Testmonial";
 import Banner from "../../components/banner/Banner";
+
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const dentalServices = [
   {
@@ -57,6 +58,10 @@ function Serv() {
 
   return (
     <>
+      <Helmet>
+        <title>Uriel Dental Services</title>
+        <meta name="description" content="Uriel Dental Services" />
+      </Helmet>
       <div className="service__containr">
         <Semi_banner page={"Services"} />
         <div className="middle__class">
@@ -69,7 +74,7 @@ function Serv() {
               {dentalServices.map(({ id, service, detail, image }) => (
                 <div className="service__card card__hover" key={id}>
                   <div className="service__img">
-                    <img src={image} alt="" />
+                    <LazyLoadImage effect="blur" src={image} alt="" />
                   </div>
                   {/* <div className="service__icon">
                 <FaTooth className="service__icon" />
