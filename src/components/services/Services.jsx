@@ -1,5 +1,8 @@
 import { FaTooth } from "react-icons/fa";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 import "./service.css";
 import Button from "../button/Button";
 import Heading from "../heading/Heading";
@@ -67,7 +70,7 @@ function Services() {
             <div className="service__card card__hover" key={id}>
               <div>
                 <div className="service__img">
-                  <img src={image} alt="" />
+                  <LazyLoadImage effect="blur" src={image} alt="" />
                 </div>
                 <div className="service__icon">
                   <FaTooth className="servicer__icon" />

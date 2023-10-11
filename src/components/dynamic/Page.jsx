@@ -1,9 +1,10 @@
-import img1 from "../../assets/home.jpeg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 function Page({ heading, image, data }) {
   return (
     <div className="detail__second">
-      <img src={image} alt="" />
+      <LazyLoadImage className="img" effect="blur" src={image} alt="" />
       <h2>{heading}</h2>
       <p>{data}</p>
     </div>

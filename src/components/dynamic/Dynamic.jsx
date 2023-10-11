@@ -3,7 +3,7 @@ import "./dynamic.css";
 import img4 from "../../assets1/images/26.jpg";
 import img5 from "../../assets1/images/kid.jpg";
 import img6 from "../../assets1/images/31.jpg";
-import img7 from "../../assets1/images/implant.jpg";
+import img7 from "../../assets1/images/25.jpg";
 import img8 from "../../assets1/images/32.jpg";
 
 function Dynamic({ route }) {
