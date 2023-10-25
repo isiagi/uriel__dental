@@ -9,7 +9,7 @@ import "./intro.css";
 function Intro() {
   return (
     <div className="intro__container">
-      <div className="intro__wrapper">
+      <div className="intro__wrapper middle__class">
         <Heading
           head="WELCOME TO URIEL DENTAL CLINIC"
           tail="We are ready to help you anytime"

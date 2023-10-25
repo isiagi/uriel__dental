@@ -20,6 +20,22 @@ function Index() {
           <Route path="/services" element={<Serv />} />
           <Route path="/services/:section" element={<Detail />} />
           <Route path="/contact" element={<Contact />} />
+          <Route
+            path="*"
+            element={
+              <div
+                style={{
+                  paddingBlock: "40vh",
+                  textAlign: "center",
+                  color: "#2F512F",
+                  background: "#eee",
+                }}
+              >
+                <h2>404</h2>
+                <h2>Page Not Found</h2>
+              </div>
+            }
+          />
         </Routes>
         <Footer />
       </Router>

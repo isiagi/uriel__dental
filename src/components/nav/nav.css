@@ -81,7 +81,7 @@
     width: 100%;
     z-index: 100;
     transition: ease 0.8s;
-    font-weight: 600;
+    font-weight: 700;
   }
 
   .nav__wrapper2.active {
@@ -91,11 +91,13 @@
   .nav__wrapper2 .nav__ul {
     display: flex;
     list-style: none;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
-    background-color: rgba(180, 196, 115, 0.6);
+    background-color: rgba(180, 196, 115, 0.9);
     padding-block: 1rem;
     color: black;
     line-height: 3em;
+    color: #fff;
+    font-size: 1.1rem;
   }
 }
