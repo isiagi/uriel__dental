@@ -18,36 +18,42 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 const dentalServices = [
   {
     id: 1,
-    image: img6,
-    service: "Orthodontics",
+    image:
+      "https://scontent.cdninstagram.com/v/t39.30808-6/373749341_17995274474319495_4426096228071974919_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=0h3K1tRrWCwAX_34wvf&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzE4Mjc0OTgyNjgzOTUzNDc5Mw%3D%3D.2-ccb7-5&oh=00_AfB8uTEfslxo03Aijyg4SW_OBeDv7Z69WWbebu_5yh7VcA&oe=653EBE4D&_nc_sid=10d13b",
+    service: "ORTHODONTICS (TEETH ALIGNMENT)",
+    link: "Orthodontics",
     detail:
       "Achieve a straighter, healthier smile with Orthodontics. Our expert orthodontists specialize in correcting misaligned teeth and jaws, offering a range of treatments, including braces and clear aligners.",
   },
   {
     id: 3,
     image: img8,
-    service: "Endodontics",
+    service: "ENDODONTICS (ROOT CANAL TREATMENT)",
+    link: "Endodontics",
     detail:
       "Find relief from tooth pain with Endodontics. Our experienced endodontists perform root canal treatments to save damaged teeth and alleviate discomfort, ensuring you maintain your natural smile.",
   },
   {
     id: 4,
     image: img5,
-    service: "Child Dentistry",
+    service: "CHILD DENTISTRY",
+    link: "Child Dentistry",
     detail:
       "Give your child the gift of a healthy smile with Child Dentistry. Our friendly pediatric specialists provide gentle care, from preventive check-ups to treatments, to ensure a lifetime of great oral health.",
   },
   {
     id: 2,
     image: img7,
-    service: "Prothodontics",
+    service: "PROSHODONTICS (CROWNS AND BRIDGES AND IMPLANTS)",
+    link: "Prothodontics",
     detail:
       "Restore your smile's function and aesthetics with Prosthodontics. Our skilled prosthodontists focus on dental prostheses like crowns, bridges, and dentures, customizing solutions to suit your unique needs.",
   },
   {
     id: 5,
     image: img4,
-    service: "Cosmetic Dentistry",
+    service: "COSMETIC DENTISTRY (VENEERS, TEETH WHITENING)",
+    link: "Cosmetic Dentistry",
     detail:
       "Enhance your smile's beauty with Cosmetic Dentistry. Our cosmetic experts offer a range of services, including teeth whitening, veneers, and smile makeovers, helping you achieve the confident, radiant smile you desire.",
   },
@@ -71,7 +77,7 @@ function Serv() {
               <p>services we offer</p>
             </div>
             <div className="service__wrapper3">
-              {dentalServices.map(({ id, service, detail, image }) => (
+              {dentalServices.map(({ id, service, detail, image, link }) => (
                 <div className="service__card card__hover" key={id}>
                   <div className="service__img">
                     <LazyLoadImage effect="blur" src={image} alt="" />
@@ -87,7 +93,7 @@ function Serv() {
                     <Button
                       name={"View Service"}
                       bgColor={"#40AEEF"}
-                      path={`services/${service}`}
+                      path={`services/${link}`}
                     />
                   </div>
                 </div>

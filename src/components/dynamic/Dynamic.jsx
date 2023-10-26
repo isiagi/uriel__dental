@@ -12,15 +12,47 @@ function Dynamic({ route }) {
       {(() => {
         switch (route) {
           case "Orthodontics":
-            return <Page heading={route} image={img6} data={data[0].data} />;
+            return (
+              <Page
+                heading={"ORTHODONTICS (TEETH ALIGNMENT)"}
+                image={
+                  "https://scontent.cdninstagram.com/v/t39.30808-6/373749341_17995274474319495_4426096228071974919_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=0h3K1tRrWCwAX_34wvf&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzE4Mjc0OTgyNjgzOTUzNDc5Mw%3D%3D.2-ccb7-5&oh=00_AfB8uTEfslxo03Aijyg4SW_OBeDv7Z69WWbebu_5yh7VcA&oe=653EBE4D&_nc_sid=10d13b"
+                }
+                data={data[0].data}
+              />
+            );
           case "Prothodontics":
-            return <Page heading={route} image={img7} data={data[1].data} />;
+            return (
+              <Page
+                heading={"PROSHODONTICS (CROWNS AND BRIDGES AND IMPLANTS)"}
+                image={img7}
+                data={data[1].data}
+              />
+            );
           case "Endodontics":
-            return <Page heading={route} image={img8} data={data[2].data} />;
+            return (
+              <Page
+                heading={"ENDODONTICS (ROOT CANAL TREATMENT)"}
+                image={img8}
+                data={data[2].data}
+              />
+            );
           case "Child Dentistry":
-            return <Page heading={route} image={img5} data={data[3].data} />;
+            return (
+              <Page
+                heading={"CHILD DENTISTRY"}
+                image={img5}
+                data={data[3].data}
+              />
+            );
           case "Cosmetic Dentistry":
-            return <Page heading={route} image={img4} data={data[4].data} />;
+            return (
+              <Page
+                heading={"COSMETIC DENTISTRY (VENEERS, TEETH WHITENING)"}
+                image={img4}
+                data={data[4].data}
+              />
+            );
 
           default:
             break;

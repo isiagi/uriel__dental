@@ -11,11 +11,16 @@ function Team() {
           <div className="team__card">
             <div className="team__card__item">
               <div className="team__card__img">
-                <img src={img} alt="" />
+                <img
+                  src={
+                    "https://media.licdn.com/dms/image/D4E03AQGg8BQ9yr82-g/profile-displayphoto-shrink_800_800/0/1686175399354?e=1703721600&v=beta&t=YsKrcIXvfpE8huqSRVlmxaLHJoSYOyyyKmeTz3ubWsc"
+                  }
+                  alt=""
+                />
               </div>
               <div className="team__card__text">
-                <h3>Dr. ......</h3>
-                <p>Senior Doctor</p>
+                <h3>Dr. Emmanuel</h3>
+                <p>Dental Surgeon</p>
               </div>
             </div>
             <div className="team__card__item">

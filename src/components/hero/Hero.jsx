@@ -48,7 +48,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className="hero__one">
+      <div className="hero__second">
         <div className="hero__textz middle__class">
           <h1>Your Smile, Our Expertise</h1>
           <div className="hero__try">

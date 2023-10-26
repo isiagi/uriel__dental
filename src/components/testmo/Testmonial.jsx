@@ -61,7 +61,7 @@ function Testmonial() {
           <p>What people say about us</p>
         </div>
         <div className="slidex">
-          <Slide arrows={false}>
+          <Slide arrows={true}>
             {slideImages.map(({ url, caption, person }) => (
               <div className="each-slide middle__class" key={person}>
                 <ImQuotesLeft

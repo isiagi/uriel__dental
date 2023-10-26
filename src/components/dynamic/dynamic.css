@@ -1,5 +1,6 @@
 .detail__second > h2 {
   color: #2f512f;
+  padding-block: 1.3rem;
 }
 
 .detail__second > p {

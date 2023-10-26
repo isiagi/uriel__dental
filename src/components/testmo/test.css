@@ -41,7 +41,13 @@
 }
 
 .slidex {
-  width: 70%;
+  width: 80%;
   text-align: center;
   margin: 0px auto;
+}
+
+@media screen and (max-width: 991px) {
+  .slidex {
+    width: 95%;
+  }
 }
