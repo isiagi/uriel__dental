@@ -28,7 +28,7 @@
 }
 
 .contact__icon__style {
-  font-size: 20px;
+  font-size: 27px;
 }
 
 .footer__loc {
@@ -55,13 +55,21 @@
   outline: none;
   border-bottom: 1px solid grey;
   background-color: transparent !important;
-  color: red;
-  font-size: 15px;
+  color: #545654;
+  font-size: 18px;
+  padding: 0.8rem;
 }
 
 .contacts__icons {
   justify-items: flex-end;
+  display: flex;
+  gap: 0.8rem;
   margin-top: 1.5rem;
+}
+
+.contact__icons {
+  font-size: 1.2rem;
+  color: #9acd32;
 }
 
 @media screen and (max-width: 991px) {
@@ -70,6 +78,10 @@
   }
 
   .footer__form {
+    width: 90%;
+  }
+
+  .footer__loc {
     width: 90%;
   }
 }
