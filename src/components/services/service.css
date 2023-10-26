@@ -51,6 +51,7 @@
 .service__img {
   height: 250px;
   overflow: hidden !important;
+  object-position: center;
 }
 
 .card__hover:hover > div > .service__img > img {

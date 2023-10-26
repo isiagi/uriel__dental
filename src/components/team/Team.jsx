@@ -1,4 +1,3 @@
-import img from "../../assets1/images/6.jpg";
 import Heading from "../heading/Heading";
 import "./team.css";
 
@@ -21,24 +20,6 @@ function Team() {
               <div className="team__card__text">
                 <h3>Dr. Emmanuel</h3>
                 <p>Dental Surgeon</p>
-              </div>
-            </div>
-            <div className="team__card__item">
-              <div className="team__card__img">
-                <img src={img} alt="" />
-              </div>
-              <div className="team__card__text">
-                <h3>Dr. ......</h3>
-                <p>Senior Doctor</p>
-              </div>
-            </div>
-            <div className="team__card__item">
-              <div className="team__card__img">
-                <img src={img} alt="" />
-              </div>
-              <div className="team__card__text">
-                <h3>Dr. ......</h3>
-                <p>Senior Doctor</p>
               </div>
             </div>
           </div>

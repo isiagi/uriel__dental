@@ -5,8 +5,6 @@ import Button from "../../components/button/Button";
 import Semi_banner from "../../components/semibanner/Semi_banner";
 import img4 from "../../assets1/images/26.jpg";
 import img5 from "../../assets1/images/kid.jpg";
-import img6 from "../../assets1/images/31.jpg";
-import img7 from "../../assets1/images/implant.jpg";
 import img8 from "../../assets1/images/32.jpg";
 import useScrollToTop from "../../hooks/useScrollToTop";
 import Testmonial from "../../components/testmo/Testmonial";
@@ -43,7 +41,8 @@ const dentalServices = [
   },
   {
     id: 2,
-    image: img7,
+    image:
+      "https://scontent.cdninstagram.com/v/t39.30808-6/394524539_18001510559319495_2165593290024844411_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=WbSSTVZN3HMAX9v1ELu&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzIxNzUxNzEwOTIxMDEyNjU1NQ%3D%3D.2-ccb7-5&oh=00_AfBqnqfrLLRmlJ0WVgxTqk_hDEcQb3PoiLQbHibgUgG8iw&oe=653F2025&_nc_sid=10d13b",
     service: "PROSHODONTICS (CROWNS AND BRIDGES AND IMPLANTS)",
     link: "Prothodontics",
     detail:
