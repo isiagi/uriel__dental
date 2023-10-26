@@ -50,30 +50,22 @@ function Footer() {
         </div>
         <div className="footer__wrapper3">
           <div>
-            <h3>Contact Us</h3>
+            <h3>Important Links</h3>
           </div>
           <div>
-            <form>
-              <div className="contact__input">
-                <input type="text" className="input" required />
-                <label htmlFor="name" className="input__label">
-                  Name
-                </label>
-              </div>
-
-              <div className="contact__input">
-                <input type="email" name="email" className="input" required />
-                <label htmlFor="email" className="input__label">
-                  Email
-                </label>
-              </div>
-
-              <div className="contact__inpu">
-                <textarea name="" id="" cols="30" rows="10" required></textarea>
-                <label htmlFor="">message</label>
-              </div>
-              <button className="footer__submit">Submit</button>
-            </form>
+            <div className="footer__ul">
+              <ul>
+                <Link to="/contact">
+                  <li>Contact Us</li>
+                </Link>
+                <Link to="/about">
+                  <li>About Us</li>
+                </Link>
+                <Link to="/services">
+                  <li>Services</li>
+                </Link>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
