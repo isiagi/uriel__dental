@@ -35,10 +35,12 @@
 
 .team__card__item h3 {
   color: #30383b;
+  padding-block: 1rem;
 }
 
 .team__card__item p {
   color: #40aeef;
+  font-weight: 500;
 }
 
 .team__card__img > img {
