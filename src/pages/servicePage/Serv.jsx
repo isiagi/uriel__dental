@@ -3,9 +3,6 @@ import { Helmet } from "react-helmet";
 import "./serv.css";
 import Button from "../../components/button/Button";
 import Semi_banner from "../../components/semibanner/Semi_banner";
-import img4 from "../../assets1/images/26.jpg";
-import img5 from "../../assets1/images/kid.jpg";
-import img8 from "../../assets1/images/32.jpg";
 import useScrollToTop from "../../hooks/useScrollToTop";
 import Testmonial from "../../components/testmo/Testmonial";
 import Banner from "../../components/banner/Banner";
@@ -34,7 +31,8 @@ const dentalServices = [
   },
   {
     id: 4,
-    image: img5,
+    image:
+      "https://res.cloudinary.com/isiagi/image/upload/v1698503248/zktutxi81jra1ysswya2.jpg",
     service: "CHILD DENTISTRY",
     link: "Child Dentistry",
     detail:

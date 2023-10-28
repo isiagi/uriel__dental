@@ -6,12 +6,6 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 import "./service.css";
 import Heading from "../heading/Heading";
 
-import img2 from "../../assets1/images/smile.jpg";
-import img3 from "../../assets1/images/27.jpg";
-import img4 from "../../assets1/images/28.jpg";
-import img5 from "../../assets1/images/30.jpg";
-import img6 from "../../assets1/images/26.jpg";
-
 const serviceData = [
   {
     id: 1,
@@ -50,7 +44,8 @@ const serviceData = [
     title: "Prevention",
     paragraph:
       "Proper oral hygiene does not only prevent caries and periodontal disease but also affects our overall health.",
-    image: img3,
+    image:
+      "https://img.freepik.com/free-photo/happy-curly-young-woman-brushes-teeth-with-tooth-floss-cares-about-oral-hygiene-surrounded-with-toothpaste-electric-toothbrush-tongue-cleaner_273609-38924.jpg?w=740&t=st=1698502752~exp=1698503352~hmac=2af35b66c66a8e8b1c38635738145732e243b81ecece863055e1abb0ca03bed0",
   },
   {
     id: 5,

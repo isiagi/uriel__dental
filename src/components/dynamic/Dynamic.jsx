@@ -1,8 +1,5 @@
 import Page from "./Page";
 import "./dynamic.css";
-import img4 from "../../assets1/images/26.jpg";
-import img5 from "../../assets1/images/kid.jpg";
-import img8 from "../../assets1/images/32.jpg";
 
 function Dynamic({ route }) {
   return (
@@ -43,7 +40,9 @@ function Dynamic({ route }) {
             return (
               <Page
                 heading={"CHILD DENTISTRY"}
-                image={img5}
+                image={
+                  "https://res.cloudinary.com/isiagi/image/upload/v1698503248/zktutxi81jra1ysswya2.jpg"
+                }
                 data={data[3].data}
               />
             );
