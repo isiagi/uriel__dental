@@ -25,7 +25,8 @@ const dentalServices = [
   },
   {
     id: 3,
-    image: img8,
+    image:
+      "https://res.cloudinary.com/isiagi/image/upload/v1698501098/d3p3uf0fle9yndvsojvq.jpg",
     service: "ENDODONTICS (ROOT CANAL TREATMENT)",
     link: "Endodontics",
     detail:
@@ -50,7 +51,8 @@ const dentalServices = [
   },
   {
     id: 5,
-    image: img4,
+    image:
+      "https://res.cloudinary.com/isiagi/image/upload/v1698500687/lmhpcogbbw6gvayzh7kb.jpg",
     service: "COSMETIC DENTISTRY (VENEERS, TEETH WHITENING)",
     link: "Cosmetic Dentistry",
     detail:

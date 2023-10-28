@@ -26,21 +26,24 @@ const serviceData = [
     title: "Teeth Whitening",
     paragraph:
       "Laser teeth whitening allows us to whiten your teeth for as much as 8 shades in just one visit.",
-    image: img2,
+    image:
+      "https://res.cloudinary.com/isiagi/image/upload/v1698500402/ijqz1zoel86saze0zwt2.jpg",
   },
   {
     id: 3,
     title: "Oral Health Consultation",
     paragraph:
       "Your smile matters to us, so your first oral health consultation at our clinic is completely free of charge.",
-    image: img5,
+    image:
+      "https://res.cloudinary.com/isiagi/image/upload/v1698501909/pmgzgdsanhog23vayx4v.jpg",
   },
   {
     id: 4,
     title: "Porcelain Veneers",
     paragraph:
       "Veneers are an ideal cosmetic solution for everyone who desires a beautiful smile with minimal invasions into their teeth.",
-    image: img6,
+    image:
+      "https://res.cloudinary.com/isiagi/image/upload/v1698500687/lmhpcogbbw6gvayzh7kb.jpg",
   },
   {
     id: 5,
@@ -54,7 +57,8 @@ const serviceData = [
     title: "Invisible Braces",
     paragraph:
       "A modern solution of straightening your teeth through clear braces, made specifically to fit your mouth.",
-    image: img4,
+    image:
+      "https://res.cloudinary.com/isiagi/image/upload/v1698501429/pjnuf7ago8zhritbav0i.jpg",
   },
 ];
 

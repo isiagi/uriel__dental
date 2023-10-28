@@ -18,8 +18,8 @@ function Team() {
                 />
               </div>
               <div className="team__card__text">
-                <h3>Dr. Emmanuel</h3>
-                <p>Dental Surgeon</p>
+                <h3>Dr Emmanuel Kiwanuka</h3>
+                <p>Orthodontist</p>
               </div>
             </div>
           </div>

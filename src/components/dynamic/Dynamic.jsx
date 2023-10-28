@@ -33,7 +33,9 @@ function Dynamic({ route }) {
             return (
               <Page
                 heading={"ENDODONTICS (ROOT CANAL TREATMENT)"}
-                image={img8}
+                image={
+                  "https://res.cloudinary.com/isiagi/image/upload/v1698501098/d3p3uf0fle9yndvsojvq.jpg"
+                }
                 data={data[2].data}
               />
             );
@@ -49,7 +51,9 @@ function Dynamic({ route }) {
             return (
               <Page
                 heading={"COSMETIC DENTISTRY (VENEERS, TEETH WHITENING)"}
-                image={img4}
+                image={
+                  "https://res.cloudinary.com/isiagi/image/upload/v1698500687/lmhpcogbbw6gvayzh7kb.jpg"
+                }
                 data={data[4].data}
               />
             );

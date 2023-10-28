@@ -112,7 +112,7 @@ function Contact() {
               <div className="contact__flex">
                 <AiOutlineCalendar className="contact__icon__style" />
                 <p>
-                  <span>Mon - Fri</span> 8:00am - 5:00pm
+                  <span>Mon - Sat</span> 8:00am - 6:00pm
                 </p>
               </div>
               <div className="contact__flex">
