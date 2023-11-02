@@ -16,7 +16,7 @@
 
 .hero__second {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://scontent.cdninstagram.com/v/t39.30808-6/373749341_17995274474319495_4426096228071974919_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=0h3K1tRrWCwAX_34wvf&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzE4Mjc0OTgyNjgzOTUzNDc5Mw%3D%3D.2-ccb7-5&oh=00_AfB8uTEfslxo03Aijyg4SW_OBeDv7Z69WWbebu_5yh7VcA&oe=653EBE4D&_nc_sid=10d13b");
+    url("https://res.cloudinary.com/isiagi/image/upload/v1698911122/if1gsczitunreadmaegb.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -53,6 +53,7 @@
   background: #e4e82c;
   color: #366937;
   padding: 1rem;
+  opacity: 0.9;
 }
 
 .hero__textz > .hero__try {
@@ -64,6 +65,7 @@
   padding: 1.5rem 0;
   position: absolute;
   left: 120px;
+  opacity: 0.8;
 }
 
 .slider {

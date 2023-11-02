@@ -11,7 +11,7 @@ function Dynamic({ route }) {
               <Page
                 heading={"ORTHODONTICS (TEETH ALIGNMENT)"}
                 image={
-                  "https://scontent.cdninstagram.com/v/t39.30808-6/373749341_17995274474319495_4426096228071974919_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=0h3K1tRrWCwAX_34wvf&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzE4Mjc0OTgyNjgzOTUzNDc5Mw%3D%3D.2-ccb7-5&oh=00_AfB8uTEfslxo03Aijyg4SW_OBeDv7Z69WWbebu_5yh7VcA&oe=653EBE4D&_nc_sid=10d13b"
+                  "https://res.cloudinary.com/isiagi/image/upload/v1698910793/fgj9oioqqombafkj45rn.jpg"
                 }
                 data={data[0].data}
               />
@@ -21,7 +21,7 @@ function Dynamic({ route }) {
               <Page
                 heading={"PROSHODONTICS (CROWNS AND BRIDGES AND IMPLANTS)"}
                 image={
-                  "https://scontent.cdninstagram.com/v/t39.30808-6/394524539_18001510559319495_2165593290024844411_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=WbSSTVZN3HMAX9v1ELu&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzIxNzUxNzEwOTIxMDEyNjU1NQ%3D%3D.2-ccb7-5&oh=00_AfBqnqfrLLRmlJ0WVgxTqk_hDEcQb3PoiLQbHibgUgG8iw&oe=653F2025&_nc_sid=10d13b"
+                  "https://res.cloudinary.com/isiagi/image/upload/v1698910430/ak0aasosk0z7lobliszv.jpg"
                 }
                 data={data[1].data}
               />
