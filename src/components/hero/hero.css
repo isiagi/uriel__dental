@@ -131,10 +131,10 @@
 
 @media screen and (max-width: 991px) {
   .slider {
-    min-height: 70vh;
+    min-height: 90vh;
   }
   .awssld__wrapper {
-    height: 70vh;
+    height: 90vh;
   }
   .hero__textz > .hero__try {
     left: auto;
