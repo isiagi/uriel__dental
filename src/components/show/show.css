@@ -9,9 +9,10 @@
 }
 
 .show__image__div {
-  background-color: green;
   height: 90vh;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .show__image__div > img {
