@@ -1,6 +1,8 @@
 import Heading from "../heading/Heading";
 import "./team.css";
 
+import img1 from "../../assets1/images/dentist.jpeg";
+
 function Team() {
   return (
     <div className="team__container">
@@ -10,12 +12,7 @@ function Team() {
           <div className="team__card">
             <div className="team__card__item">
               <div className="team__card__img">
-                <img
-                  src={
-                    "https://media.licdn.com/dms/image/D4E03AQGg8BQ9yr82-g/profile-displayphoto-shrink_800_800/0/1686175399354?e=1703721600&v=beta&t=YsKrcIXvfpE8huqSRVlmxaLHJoSYOyyyKmeTz3ubWsc"
-                  }
-                  alt=""
-                />
+                <img src={img1} alt="" />
               </div>
               <div className="team__card__text">
                 <h3>Dr Emmanuel Kiwanuka</h3>
