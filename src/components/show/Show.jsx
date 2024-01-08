@@ -1,14 +1,17 @@
 import "./show.css";
 import Button from "../button/Button";
-import aui from "../../assets1/videos/uriel1.mp4";
-import Player from "../player/Player";
+import React from "react";
+import { Player } from "video-react";
+import "video-react/dist/video-react.css";
 
 function Show() {
   return (
     <div className="show__container">
       <div className="middle__class show__wrapper">
         <div className="show__image__div">
-          <Player video={aui} />
+          <Player autoPlay>
+            <source src="https://res.cloudinary.com/isiagi/video/upload/v1704643602/loid5v7tpvdeci02hj5i.mp4" />
+          </Player>
         </div>
         <div className="show__second">
           <h2>Complete Dental Care</h2>
