@@ -12,6 +12,9 @@ function Player({ video }) {
         controls={true}
         light={false}
         playing={true}
+        onError={() => {
+          console.log("Something went wroung...");
+        }}
       />
       <source src={video} type="video/mp4" />
     </div>
