@@ -5,6 +5,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 import "./intro.css";
+import Player from "../player/Player";
 
 function Intro() {
   return (
@@ -17,6 +18,11 @@ function Intro() {
         <div className="intro__wrapper2">
           <div className="intro__wrapper2__img">
             <LazyLoadImage effect="blur" src={img} alt="uriel dental" />
+            <Player
+              video={
+                "https://res.cloudinary.com/isiagi/video/upload/v1704642103/nuojhggjz8cpqgktynvx.mp4"
+              }
+            />
           </div>
           <div className="intro__wrapper2__text">
             <p>
