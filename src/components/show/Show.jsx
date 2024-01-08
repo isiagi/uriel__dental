@@ -1,14 +1,18 @@
 import "./show.css";
 import img1 from "../../assets1/images/19.jpg";
 import Button from "../button/Button";
+import Player from "../player/Player";
 
 function Show() {
   return (
     <div className="show__container">
-      <div className="show__wrapper">
+      <div className="middle__class show__wrapper">
         <div className="show__image__div">
-          <img src={img1} alt="" />
-          <div className="show__img__overlay">hello</div>
+          <Player
+            video={
+              "https://res.cloudinary.com/isiagi/video/upload/v1704642103/nuojhggjz8cpqgktynvx.mp4"
+            }
+          />
         </div>
         <div className="show__second">
           <h2>Complete Dental Care</h2>

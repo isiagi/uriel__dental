@@ -13,21 +13,21 @@
   /* padding-top: 72px; */
 }
 
-.intro__wrapper2__img {
+/* .intro__wrapper2__img {
   max-width: 400px;
-}
+} */
 
 .intro__wrapper2 {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 10px;
   line-height: 2rem;
-  flex-wrap: wrap;
   padding-top: 3rem;
 }
 
-.intro__wrapper2 p {
+/* .intro__wrapper2 p {
   max-width: 700px;
-}
+} */
 
 /* .intro__wrapper2__text > button {
   border: none;

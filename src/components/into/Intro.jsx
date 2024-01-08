@@ -17,7 +17,6 @@ function Intro() {
         />
         <div className="intro__wrapper2">
           <div className="intro__wrapper2__img">
-            <LazyLoadImage effect="blur" src={img} alt="uriel dental" />
             <Player
               video={
                 "https://res.cloudinary.com/isiagi/video/upload/v1704642103/nuojhggjz8cpqgktynvx.mp4"
