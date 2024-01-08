@@ -1,8 +1,9 @@
-import img from "../../assets1/images/6.jpg";
 import Button from "../button/Button";
 import Heading from "../heading/Heading";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+
+import { Player } from "video-react";
+import "video-react/dist/video-react.css";
 
 import "./intro.css";
 
@@ -15,7 +16,11 @@ function Intro() {
           tail="We are ready to help you anytime"
         />
         <div className="intro__wrapper2">
-          <div className="intro__wrapper2__img"></div>
+          <div className="intro__wrapper2__img">
+            <Player autoPlay>
+              <source src="https://res.cloudinary.com/isiagi/video/upload/v1704643602/loid5v7tpvdeci02hj5i.mp4" />
+            </Player>
+          </div>
           <div className="intro__wrapper2__text">
             <p>
               At Uriel Dental Clinic, we're dedicated to providing you and your
