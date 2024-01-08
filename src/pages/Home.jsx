@@ -29,6 +29,7 @@ function Home() {
       <Hero />
       <Intro />
       <Services />
+      <Show />
       <Team />
       <Testmonial />
       <Banner />
