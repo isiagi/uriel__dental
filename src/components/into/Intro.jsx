@@ -11,7 +11,7 @@ function Intro() {
     <div className="intro__container">
       <div className="intro__wrapper middle__class">
         <Heading
-          head="WELCOME TO URIEL DENTAL CLINIC"
+          head="WELCOME TO URIEL DENTAL CLINIC "
           tail="We are ready to help you anytime"
         />
         <div className="intro__wrapper2">
