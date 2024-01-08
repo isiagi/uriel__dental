@@ -1,28 +1,12 @@
-import { useState, useEffect } from "react";
 import "./show.css";
 import img1 from "../../assets1/images/19.jpg";
 import Button from "../button/Button";
-import Player from "../player/Player";
 
 function Show() {
-  const [hasWindow, setHasWindow] = useState(false);
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      setHasWindow(true);
-    }
-  }, []);
   return (
     <div className="show__container">
       <div className="middle__class show__wrapper">
-        <div className="show__image__div">
-          {hasWindow && (
-            <Player
-              video={
-                "https://res.cloudinary.com/isiagi/video/upload/v1704642103/nuojhggjz8cpqgktynvx.mp4"
-              }
-            />
-          )}
-        </div>
+        <div className="show__image__div"></div>
         <div className="show__second">
           <h2>Complete Dental Care</h2>
           <h3>

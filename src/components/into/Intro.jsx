@@ -5,7 +5,6 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 import "./intro.css";
-// import Player from "../player/Player";
 
 function Intro() {
   return (
@@ -16,13 +15,7 @@ function Intro() {
           tail="We are ready to help you anytime"
         />
         <div className="intro__wrapper2">
-          <div className="intro__wrapper2__img">
-            {/* <Player
-              video={
-                "https://res.cloudinary.com/isiagi/video/upload/v1704642103/nuojhggjz8cpqgktynvx.mp4"
-              }
-            /> */}
-          </div>
+          <div className="intro__wrapper2__img"></div>
           <div className="intro__wrapper2__text">
             <p>
               At Uriel Dental Clinic, we're dedicated to providing you and your
