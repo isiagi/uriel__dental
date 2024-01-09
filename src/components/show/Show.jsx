@@ -1,17 +1,20 @@
 import "./show.css";
 import Button from "../button/Button";
 import React from "react";
-import { Player } from "video-react";
-import "video-react/dist/video-react.css";
+import img from "../../assets1/images/19.jpg";
+import PlayerComponent from "../player/Player";
 
 function Show() {
   return (
     <div className="show__container">
       <div className="middle__class show__wrapper">
         <div className="show__image__div">
-          <Player autoPlay>
-            <source src="https://res.cloudinary.com/isiagi/video/upload/v1704643602/loid5v7tpvdeci02hj5i.mp4" />
-          </Player>
+          <PlayerComponent
+            video={
+              "https://res.cloudinary.com/isiagi/video/upload/v1704643602/loid5v7tpvdeci02hj5i.mp4"
+            }
+            poster={img}
+          />
         </div>
         <div className="show__second">
           <h2>Complete Dental Care</h2>

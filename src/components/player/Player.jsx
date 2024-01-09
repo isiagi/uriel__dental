@@ -1,24 +1,14 @@
-import React from "react";
-import ReactPlayer from "react-player";
+import { Player } from "video-react";
+import "video-react/dist/video-react.css";
 
-function Player({ video }) {
+function PlayerComponent({ video, poster }) {
   return (
     <div>
-      <ReactPlayer
-        width={"100%"}
-        height={"100%"}
-        url={video}
-        pip={true}
-        controls={true}
-        light={false}
-        playing={true}
-        onError={() => {
-          console.log("Something went wroung...");
-        }}
-      />
-      <source src={video} type="video/mp4" />
+      <Player autoPlay={true} playsInline poster={poster}>
+        <source src={video} />
+      </Player>
     </div>
   );
 }
 
-export default Player;
+export default PlayerComponent;

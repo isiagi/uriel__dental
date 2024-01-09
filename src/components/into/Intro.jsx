@@ -1,11 +1,10 @@
 import Button from "../button/Button";
 import Heading from "../heading/Heading";
 import "react-lazy-load-image-component/src/effects/blur.css";
-
-import { Player } from "video-react";
-import "video-react/dist/video-react.css";
+import img from "../../assets1/images/6.jpg";
 
 import "./intro.css";
+import PlayerComponent from "../player/Player";
 
 function Intro() {
   return (
@@ -17,9 +16,12 @@ function Intro() {
         />
         <div className="intro__wrapper2">
           <div className="intro__wrapper2__img">
-            <Player autoPlay>
-              <source src="https://res.cloudinary.com/isiagi/video/upload/v1704643602/loid5v7tpvdeci02hj5i.mp4" />
-            </Player>
+            <PlayerComponent
+              video={
+                "https://res.cloudinary.com/isiagi/video/upload/v1704643602/loid5v7tpvdeci02hj5i.mp4"
+              }
+              poster={img}
+            />
           </div>
           <div className="intro__wrapper2__text">
             <p>
