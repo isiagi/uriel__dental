@@ -1,14 +1,14 @@
 import "./show.css";
 import Button from "../button/Button";
 import React from "react";
-import img from "../../assets1/images/19.jpg";
+import img from "../../assets1/images/11.jpg";
 import PlayerComponent from "../player/Player";
 
 function Show() {
   return (
     <div className="show__container">
       <div className="middle__class show__wrapper">
-        <div className="show__image__div">
+        <div className="">
           <PlayerComponent
             video={
               "https://res.cloudinary.com/isiagi/video/upload/v1704643602/loid5v7tpvdeci02hj5i.mp4"
