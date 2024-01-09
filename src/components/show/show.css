@@ -6,16 +6,18 @@
 .show__container {
   /* background-color: #fafef9; */
   min-height: 100vh;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
 }
 
 .show__image__div {
-  /* display: grid;
-  place-items: center; */
-  display: flex;
-  items-align: center;
-  justify-content: center;
+  background-color: green;
+  height: 90vh;
+  position: relative;
+}
+
+.show__image__div > img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
 .show__container {

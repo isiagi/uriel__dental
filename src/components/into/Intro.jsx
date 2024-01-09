@@ -1,27 +1,22 @@
+import img from "../../assets1/images/6.jpg";
 import Button from "../button/Button";
 import Heading from "../heading/Heading";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import img from "../../assets1/images/6.jpg";
 
 import "./intro.css";
-import PlayerComponent from "../player/Player";
 
 function Intro() {
   return (
     <div className="intro__container">
       <div className="intro__wrapper middle__class">
         <Heading
-          head="WELCOME TO URIEL DENTAL CLINIC "
+          head="WELCOME TO URIEL DENTAL CLINIC"
           tail="We are ready to help you anytime"
         />
         <div className="intro__wrapper2">
           <div className="intro__wrapper2__img">
-            <PlayerComponent
-              video={
-                "https://res.cloudinary.com/isiagi/video/upload/v1704643602/loid5v7tpvdeci02hj5i.mp4"
-              }
-              poster={img}
-            />
+            <LazyLoadImage effect="blur" src={img} alt="uriel dental" />
           </div>
           <div className="intro__wrapper2__text">
             <p>
