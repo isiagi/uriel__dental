@@ -8,7 +8,7 @@ function Show() {
   return (
     <div className="show__container">
       <div className="middle__class show__wrapper">
-        <div className="">
+        <div>
           <PlayerComponent
             video={
               "https://res.cloudinary.com/isiagi/video/upload/v1704643602/loid5v7tpvdeci02hj5i.mp4"
