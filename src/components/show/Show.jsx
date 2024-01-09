@@ -5,10 +5,15 @@ import Button from "../button/Button";
 function Show() {
   return (
     <div className="show__container">
-      <div className="show__wrapper">
-        <div className="show__image__div">
-          <img src={img1} alt="" />
-          <div className="show__img__overlay">hello</div>
+
+      <div className="middle__class show__wrapper">
+        <div>
+          <PlayerComponent
+            video={
+              "https://res.cloudinary.com/isiagi/video/upload/v1704643602/loid5v7tpvdeci02hj5i.mp4"
+            }
+            poster={img}
+          />
         </div>
         <div className="show__second">
           <h2>Complete Dental Care</h2>
