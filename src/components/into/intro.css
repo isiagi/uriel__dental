@@ -20,7 +20,7 @@
 .intro__wrapper2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 10px;
+  gap: 2rem;
   line-height: 2rem;
   padding-top: 3rem;
 }
