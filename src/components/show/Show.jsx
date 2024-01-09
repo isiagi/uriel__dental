@@ -1,20 +1,14 @@
 import "./show.css";
+import img1 from "../../assets1/images/19.jpg";
 import Button from "../button/Button";
-import React from "react";
-import img from "../../assets1/images/11.jpg";
-import PlayerComponent from "../player/Player";
 
 function Show() {
   return (
     <div className="show__container">
-      <div className="middle__class show__wrapper">
-        <div className="">
-          <PlayerComponent
-            video={
-              "https://res.cloudinary.com/isiagi/video/upload/v1704643602/loid5v7tpvdeci02hj5i.mp4"
-            }
-            poster={img}
-          />
+      <div className="show__wrapper">
+        <div className="show__image__div">
+          <img src={img1} alt="" />
+          <div className="show__img__overlay">hello</div>
         </div>
         <div className="show__second">
           <h2>Complete Dental Care</h2>
